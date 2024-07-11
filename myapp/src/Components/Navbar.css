@@ -13,7 +13,9 @@ body {
 
 .heading_logo {
     width: 30%;
-    right: 400px;
+    position: relative;
+    right: -130px;
+    top: 4px;
 }
 
 .link {
@@ -65,4 +67,14 @@ body {
 
 .navbar_main {
     display: flex;
+}
+
+.menu_icon {
+    top: 25px;
+    position: relative;
+    margin-right: 30px;
+}
+
+.localMall_icon {
+    margin-right: 20px;
 }
