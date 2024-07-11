@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import refreshlogos from "./Images/refreshlogo.png";
 import "./Navbar.css";
 import SearchIcon from '@mui/icons-material/Search';
+import MenuIcon from '@mui/icons-material/Menu';
 
 const Navbar = () => {
     return(
@@ -17,15 +18,15 @@ const Navbar = () => {
                     <div className="navbar_main">
                         <div>
                             <div>
-                                {/* search icon */}
+                            <SearchIcon className="search_icon"/>
                             </div>
-                             {/* Menu icon */}
+                            <MenuIcon className="menu_icon"/>
                         </div>
                         <div>
                             <img src={refreshlogos} className="heading_logo" alt=""/>
                         </div>
                         <div className="badSearch">
-                             {/* search icon */}
+                        <SearchIcon className="search_icon"/>
                              {/* local icon */}  
                         </div>
                     </div>
