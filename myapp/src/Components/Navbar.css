@@ -24,5 +24,14 @@ body {
 }
 
 .search {
-    background-color: pink;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 23px;
+    padding: 7px;
+    width: 130%;
+}
+
+.search::placeholder {
+    color: white;
 }
