@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import headerImage from "./Images/huron_men_shampoo.jpg"
+import headerImage from "./Images/men-shampoo.jpg"
 
 const Home = () => {
     return(
