@@ -70,11 +70,30 @@ body {
 }
 
 .menu_icon {
-    top: 25px;
+    top: 2px;
     position: relative;
     margin-right: 30px;
 }
 
 .localMall_icon {
     margin-right: 20px;
+}
+
+.sidebar {
+    margin-left: 1200px;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    height: 189px;
+    border-radius: 2px;
+    bottom: 20px;
+    position: relative;
+    z-index: 9;
+}
+
+.sidebar_link {
+    margin: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    color: white;
 }
