@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import refreshlogos from "./Images/refreshlogo.png";
 import "./Navbar.css";
+import "./App.css";
 import SearchIcon from '@mui/icons-material/Search';
 import MenuIcon from '@mui/icons-material/Menu';
 
