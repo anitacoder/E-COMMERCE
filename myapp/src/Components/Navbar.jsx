@@ -8,7 +8,7 @@ const Navbar = () => {
         <div>
             <div className="navbar_div">
                 <div>
-                    <input type="text" placeholder="Search here"/>
+                    <input type="text" placeholder="Search here" className="search"/>
                     {/* search icon */}
                     {/* close icon */}
                 </div>
