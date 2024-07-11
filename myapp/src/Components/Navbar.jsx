@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import refreshlogos from "./Images/refreshlogo.jpeg";
+import "./Navbar.css"
 
 const Navbar = () => {
     return(
@@ -19,16 +21,20 @@ const Navbar = () => {
                              {/* Menu icon */}
                         </div>
                         <div>
-                            <img src="im"/>
+                            <img src={refreshlogos} className="heading_logo" alt=""/>
+                        </div>
+                        <div className="badSearch">
+                             {/* search icon */}
+                             {/* local icon */}  
                         </div>
                     </div>
                 </div>
             </div>
-            <Link to="/">Home</Link>
-            <Link to="/contact">Contact</Link>
-            <Link to="/privacy">Privacy</Link>
-            <Link to="loginForm">Login</Link>
-            <Link to="/signUp">SignUp</Link>
+            <Link to="/" className="link">Home</Link>
+            <Link to="/contact" className="link">Contact</Link>
+            <Link to="/privacy" className="link">Privacy</Link>
+            <Link to="loginForm" className="link">Login</Link>
+            <Link to="/signUp" className="link">SignUp</Link>
         </div>
     )
 }
