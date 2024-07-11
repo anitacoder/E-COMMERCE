@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import refreshlogos from "./Images/refreshlogo.jpeg";
+import refreshlogos from "./Images/refreshlogo.png";
 import "./Navbar.css"
 
 const Navbar = () => {
