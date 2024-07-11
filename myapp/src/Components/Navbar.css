@@ -1,3 +1,28 @@
-/* .Navbar_div {
+body {
+    margin: 0;
+}
+.navbar_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    height: 90px;
+}
 
-} */
+.heading_logo {
+    width: 30%;
+}
+
+.link {
+    top: -20px;
+    color: white;
+    position: relative;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.search {
+    background-color: pink;
+}
