@@ -13,6 +13,7 @@ body {
 
 .heading_logo {
     width: 30%;
+    right: 400px;
 }
 
 .link {
@@ -42,9 +43,6 @@ body {
     left: 210px;
     top: 8px;
 }
-/* .input_form_not {
-    display: none;
-} */
 
 .input_form {
     display: flex;
@@ -63,4 +61,8 @@ body {
 .badSearch {
     display: flex;
     align-items: center;
+}
+
+.navbar_main {
+    display: flex;
 }
