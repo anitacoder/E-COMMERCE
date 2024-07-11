@@ -28,23 +28,39 @@ body {
     background-color: transparent;
     color: white;
     border-radius: 23px;
-    padding: 7px;
-    width: 130%;
+    padding: 7px 7px 7px 30px; 
+    width: 190px;
+    position: relative; 
 }
 
 .search::placeholder {
     color: white;
 }
 
-.search_icon {
-    top: -25px;
-    left: 245px;
+.search_icon_inside {
+    position: relative;
+    left: 210px;
+    top: 8px;
+}
+/* .input_form_not {
+    display: none;
+} */
+
+.input_form {
+    display: flex;
+    align-items: center;
     position: relative;
 }
 
 .close_icon {
     width: 20%;
+    top: 9px;
+    left: 7px;
+    cursor: pointer;
     position: relative;
-    top: -25px;
-    left: 265px;
+}
+
+.badSearch {
+    display: flex;
+    align-items: center;
 }

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import refreshlogos from "./Images/refreshlogo.png";
 import "./Navbar.css";
-import "./App.css";
 import SearchIcon from '@mui/icons-material/Search';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
@@ -24,21 +23,20 @@ const Navbar = () => {
         <div>
             <div className="navbar_div">
                 <div className={data ? "input_form" : "input_form_not"}>
+                    <SearchIcon className="search_icon_inside" />
                     <input type="text" placeholder="Search here" className="search" />
-                    <SearchIcon className="search_icon" />
-                    <CloseIcon onClick={() => setData(false)} className="close_icon" />
+                    <CloseIcon className="close_icon" />
                 </div>
                 <div>
                     <div className="navbar_main">
+                        <div onClick={inputHandler} />
                         <div>
-                            <SearchIcon onClick={inputHandler} className="search_icon" />
                             <MenuIcon onClick={menuHandler} className="menu_icon" />
                         </div>
                         <div>
                             <img src={refreshlogos} className="heading_logo" alt="" />
                         </div>
                         <div className="badSearch">
-                            <SearchIcon onClick={inputHandler} className="search_icon" />
                             <LocalMallIcon className="localMall_icon" />
                         </div>
                     </div>
