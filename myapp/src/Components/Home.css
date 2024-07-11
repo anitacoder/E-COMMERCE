@@ -1,14 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .home_header {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+    height: 100vh; 
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    position: relative; 
+    overflow: hidden;
 }
-
+.home_logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1; 
+}
 .data {
     background-color: rgba(0, 0, 0, 0.5); 
     padding: 20px;
