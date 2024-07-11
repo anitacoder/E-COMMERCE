@@ -1,0 +1,42 @@
+.home_header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.data {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.header_container h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.header_container p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.shampoobtn {
+    background-color: #ff7f50; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.shampoobtn:hover {
+    background-color: #ff6347; 
+}
