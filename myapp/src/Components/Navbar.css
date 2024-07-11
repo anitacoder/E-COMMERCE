@@ -8,7 +8,7 @@ body {
     background-color: #0e1d4f;
     padding: 10px;
     color: white;
-    height: 90px;
+    height: 90%;
 }
 
 .heading_logo {
@@ -34,4 +34,17 @@ body {
 
 .search::placeholder {
     color: white;
+}
+
+.search_icon {
+    top: -25px;
+    left: 245px;
+    position: relative;
+}
+
+.close_icon {
+    width: 20%;
+    position: relative;
+    top: -25px;
+    left: 265px;
 }
