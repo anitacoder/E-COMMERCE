@@ -1,10 +1,11 @@
 import React from "react";
 import "./Home.css";
-import imageHeader from "./Image.huron.jpg"
+import headerImage from "./Images/huron.jpg"
 
 const Home = () => {
     return(
         <div className="home_header">
+            <img src={headerImage} className="home_logo" alt="" />
             <div className="data">
             <div className="header_container">
                 <h1>Hairs</h1>
