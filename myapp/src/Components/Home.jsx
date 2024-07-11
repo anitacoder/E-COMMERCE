@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import headerImage from "./Images/men-shampoo.jpg"
+import cart from "./cart"
 
 const Home = () => {
     return(
@@ -13,6 +14,7 @@ const Home = () => {
                 <button className="shampoobtn">Shop Shampoo</button>
             </div>
         </div>
+        <cart/>
         </div>
     )
 }
