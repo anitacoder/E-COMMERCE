@@ -4,7 +4,7 @@ import headerImage from "./Images/huron.jpg"
 
 const Home = () => {
     return(
-        <div className="home_header">
+        <div className="home_header" style={{backgroundImage: `url(${headerImage})`}}>
             <img src={headerImage} className="home_logo" alt="" />
             <div className="data">
             <div className="header_container">
