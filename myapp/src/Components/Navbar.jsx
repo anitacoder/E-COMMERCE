@@ -31,13 +31,13 @@ const Navbar = () => {
                     <div className="navbar_main">
                         <div onClick={inputHandler} />
                         <div>
-                            <MenuIcon onClick={menuHandler} className="menu_icon" />
-                        </div>
-                        <div>
                             <img src={refreshlogos} className="heading_logo" alt="" />
                         </div>
                         <div className="badSearch">
                             <LocalMallIcon className="localMall_icon" />
+                        </div>
+                        <div>
+                            <MenuIcon onClick={menuHandler} className="menu_icon" />
                         </div>
                     </div>
                 </div>
