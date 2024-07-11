@@ -26,7 +26,7 @@ const Navbar = () => {
                 <div>
                     <input type="text" placeholder="Search here" className="search"/>
                     <SearchIcon className="search_icon"/>
-                   <CloseIcon onClick={inputHandler}class="close_icon"/>
+                   <CloseIcon onClick={inputHandler}className="close_icon"/>
                 </div>
                 <div>
                     <div className="navbar_main">
