@@ -5,6 +5,8 @@ import "./Navbar.css";
 import "./App.css";
 import SearchIcon from '@mui/icons-material/Search';
 import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
+import LocalMallIcon from '@mui/icons-material/LocalMall';
 
 const Navbar = () => {
     return(
@@ -13,7 +15,7 @@ const Navbar = () => {
                 <div>
                     <input type="text" placeholder="Search here" className="search"/>
                     <SearchIcon className="search_icon"/>
-                    {/* close icon */}
+                   <CloseIcon class="close_icon"/>
                 </div>
                 <div>
                     <div className="navbar_main">
@@ -28,7 +30,7 @@ const Navbar = () => {
                         </div>
                         <div className="badSearch">
                         <SearchIcon className="search_icon"/>
-                             {/* local icon */}  
+                        <LocalMallIcon className="localMall_icon"/>
                         </div>
                     </div>
                 </div>
