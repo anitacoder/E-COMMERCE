@@ -4,6 +4,12 @@ import "./Home.css";
 import faceWashImage from "./Images/simple_faceWash.png";
 
 const Home = () => {
+    const productSectionRef = useRef(null);
+
+    const handleShopSkincareClick = () => {
+        productSectionRef.current.scrollIntoView({ behavior: 'smooth' });
+    };
+
     const settings =  {
         dot: true,
         infinite: true,
@@ -33,9 +39,9 @@ const Home = () => {
                 <div className="header_container">
                     <h1 className="skin_text">Skincare</h1>
                     <p className="product-text">Discover our range of skincare products designed to keep your skin healthy and radiant. From cleansers to moisturizers, we have everything you need for a perfect skincare routine.</p>
-                    <button className="skincarebtn">Shop Skincare</button>
+                    <button className="skincarebtn" onClick={handleShopSkincareClick}>Shop Skincare</button>
                 </div>
-                <h2 className="products">Products</h2>
+                <h2 className="products" ref={productSectionRef}>Products</h2>
                 <div className="box">
                     <div className="box1">
                     <img src={faceWashImage} alt="Face Wash" className="faceWash" /> 
