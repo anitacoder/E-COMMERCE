@@ -39,7 +39,6 @@ const Home = () => {
                     <div className="box1">
                         <p>Cer</p>
                     </div>
-                    <div className="box1">hhhh</div>
                     <div className="box2">hhhh</div>
                     <div className="box3">hhhh</div>
                     <div className="box4">hhhh</div>
@@ -47,6 +46,7 @@ const Home = () => {
                     <div className="box6">hhhh</div>
                     <div className="box7">hhhh</div>
                     <div className="box8">hhhh</div>
+                    <div className="box9">hhhh</div>
                 </div>
             </div>
         </div>
