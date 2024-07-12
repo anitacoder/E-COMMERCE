@@ -38,7 +38,7 @@ const Navbar = () => {
                 <Link to="/signUp" className="link">SignUp</Link>
             </div>
                 <div>
-                <SearchIcon className="search_icon_inside" style={{ marginLeft: `-${searchWidth}px` }} />
+                <SearchIcon className="search_icon_inside" style={{ left: `calc(360px - ${searchWidth}px)` }} />
                 <input type="text" placeholder="Search here" className="search" onChange={handleSearchWidth}/>
                     <CloseIcon onClick={inputHandler} className="close_icon" />
                 </div>
