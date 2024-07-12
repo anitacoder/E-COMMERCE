@@ -6,9 +6,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0e1d4f;
+    background-color: white;
     padding: 10px;
-    color: white;
+    color: black;
     height: 90%;
 }
 
