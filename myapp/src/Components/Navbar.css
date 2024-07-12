@@ -10,6 +10,7 @@ body {
     padding: 10px;
     color: black;
     height: 90%;
+    border-bottom: 1px solid black;
 }
 
 .heading_logo {
