@@ -41,28 +41,28 @@ const Home = () => {
                     <img src={faceWashImage} alt="Face Wash" className="faceWash" /> 
                     <p className="product-txt">Simple</p>
                     <h1 className="product-heading">Moisturising face wash</h1>
-                    <p className="product-text">For a glowing skin</p>
+                    <p className="product-t">For a glowing skin</p>
                     <button className="add">Add to cart</button>
                     </div>
                     <div className="box2">
                     <img src={faceWashImage} alt="Face Wash" className="faceWash" /> 
                     <p className="product-txt">Simple</p>
                     <h1 className="product-heading">Moisturising face wash</h1>
-                    <p className="product-text">For a glowing skin</p>
+                    <p className="product-t">For a glowing skin</p>
                     <button className="add">Add to cart</button>
                     </div>
                     <div className="box3">
                     <img src={faceWashImage} alt="Face Wash" className="faceWash" /> 
                     <p className="product-txt">Simple</p>
                     <h1 className="product-heading">Moisturising face wash</h1>
-                    <p className="product-text">For a glowing skin</p>
+                    <p className="product-t">For a glowing skin</p>
                     <button className="add">Add to cart</button>
                     </div>
                     <div className="box4">
                     <img src={faceWashImage} alt="Face Wash" className="faceWash" /> 
                     <p className="product-txt">Simple</p>
                     <h1 className="product-heading">Moisturising face wash</h1>
-                    <p className="product-text">For a glowing skin</p>
+                    <p className="product-t">For a glowing skin</p>
                     <button className="add">Add to cart</button>
                     </div>
                 </div>
@@ -71,28 +71,28 @@ const Home = () => {
                     <img src={faceWashImage} alt="Face Wash" className="faceWash" /> 
                     <p className="product-txt">Simple</p>
                     <h1 className="product-heading">Moisturising face wash</h1>
-                    <p className="product-text">For a glowing skin</p>
+                    <p className="product-t">For a glowing skin</p>
                     <button className="add">Add to cart</button>
                     </div>
                     <div className="box11">
                     <img src={faceWashImage} alt="Face Wash" className="faceWash" /> 
                     <p className="product-txt">Simple</p>
                     <h1 className="product-heading">Moisturising face wash</h1>
-                    <p className="product-text">For a glowing skin</p>
+                    <p className="product-t">For a glowing skin</p>
                     <button className="add">Add to cart</button>
                     </div>
                     <div className="box12">
                     <img src={faceWashImage} alt="Face Wash" className="faceWash" /> 
                     <p className="product-txt">Simple</p>
                     <h1 className="product-heading">Moisturising face wash</h1>
-                    <p className="product-text">For a glowing skin</p>
+                    <p className="product-t">For a glowing skin</p>
                     <button className="add">Add to cart</button>
                     </div>
                     <div className="box13">
                     <img src={faceWashImage} alt="Face Wash" className="faceWash" /> 
                     <p className="product-txt">Simple</p>
                     <h1 className="product-heading">Moisturising face wash</h1>
-                    <p className="product-text">For a glowing skin</p>
+                    <p className="product-t">For a glowing skin</p>
                     <button className="add">Add to cart</button>
                     </div>
                 </div>
