@@ -48,11 +48,11 @@ body {
 
 .search_icon_inside {
     position: relative;
-    left: 210px;
+    left: calc(570px - 100%);
     top: 8px;
-    transition: margin-left 0.3s ease;
-    outline: none;
+    transition: left 0.3s ease; 
 }
+
 
 .search_area {
     margin-left: 580px;
