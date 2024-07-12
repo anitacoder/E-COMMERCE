@@ -1,4 +1,5 @@
 import React from "react";
+import About from "./Components/about";
 import Contact from "./Components/contact";
 import Home from "./Components/Home";
 import LoginForm from "./Components/loginForm";
@@ -12,6 +13,7 @@ const App = () =>  {
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>}/>
+        <Route path="/about" element={<About/>}/>
         <Route path="/privacy" element={<Privacy/>}/>  
         <Route path="/LoginForm" element={<LoginForm/>}/>  
         <Route path="/Contact" element={<Contact/>}/>  

@@ -5,7 +5,7 @@ import "./Navbar.css";
 import SearchIcon from '@mui/icons-material/Search';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
-import LocalMallIcon from '@mui/icons-material/LocalMall';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import Header from "./Header"
 
 const Navbar = () => {
@@ -41,6 +41,7 @@ const Navbar = () => {
             <div className="navbar_div">
                   <div>
                 <Link to="/" className="link">Home</Link>
+                <Link to="/about" className="link">About</Link>
                 <Link to="/contact" className="link">Contact</Link>
                 <Link to="/privacy" className="link">Privacy</Link>
                 <Link to="loginForm" className="link">Login</Link>
@@ -59,7 +60,7 @@ const Navbar = () => {
                             <img src={refreshlogos} className="heading_logo" alt="" />
                         </div>
                         <div className="badSearch">
-                            <LocalMallIcon className="localMall_icon" />
+                            <ShoppingCartIcon className="localMall_icon" />
                             <MenuIcon onClick={menuHandler} className="menu_icon" />
                         </div>
                 </div>
@@ -68,6 +69,7 @@ const Navbar = () => {
             {menuOpen && (
                 <div className="sidebar">
                     <Link to="/" className="sidebar_link">Home</Link>
+                    <Link to="/about" className="sidebar_link">About</Link>
                     <Link to="/contact" className="sidebar_link">Contact</Link>
                     <Link to="/privacy" className="sidebar_link">Privacy</Link>
                     <Link to="loginForm" className="sidebar_link">Login</Link>

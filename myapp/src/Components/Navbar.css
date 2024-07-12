@@ -2,12 +2,6 @@ body {
     margin: 0;
 }
 
-.navbar_container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-}
-
 .navbar_div {
     display: flex;
     justify-content: space-between;
@@ -16,7 +10,6 @@ body {
     padding: 10px;
     color: white;
     height: 90%;
-    position: relative;
 }
 
 .heading_logo {
@@ -92,7 +85,7 @@ body {
 .menu_icon {
     top: 2px;
     position: relative;
-    margin-right: 30px;
+    margin-right: 90px;
 }
 
 .localMall_icon {
@@ -100,20 +93,25 @@ body {
 }
 
 .sidebar {
-    margin-left: 1200px; /* Adjust as needed */
+    margin-left: 1260px; /* Adjust as needed */
     display: flex;
     flex-direction: column;
-    background-color: blue;
+    background-color: white;
     height: 189px;
-    border-radius: 2px;
-    bottom: 20px;
+    border-radius: 6px;
+    bottom: 480px;
     z-index: 10;
-    top: 100%;
+    position:absolute;
+    width: 150px;
 }
 
 .sidebar_link {
+    color: black;
     margin: 10px 0;
     text-align: center;
     text-decoration: none;
-    color: white;
+}
+
+.sidebar_link:hover {
+    text-decoration: underline;
 }
