@@ -1,19 +1,18 @@
 import React from "react";
 import "./Home.css";
 
-
 const Home = () => {
-    return(
+    return (
         <div className="home_header">
             <div className="data">
-            <div className="header_container">
-                <h1>Hairs</h1>
-                <p>Start from the top. We've got you covered with a range of formulas to keep your hair in tip-top shape and your style in mint condition</p>
-                <button className="shampoobtn">Shop Shampoo</button>
+                <div className="header_container">
+                    <h1>Skincare</h1>
+                    <p>Discover our range of skincare products designed to keep your skin healthy and radiant. From cleansers to moisturizers, we have everything you need for a perfect skincare routine.</p>
+                    <button className="skincarebtn">Shop Skincare</button>
+                </div>
             </div>
         </div>
-        </div>
-    )
+    );
 }
 
 export default Home;
