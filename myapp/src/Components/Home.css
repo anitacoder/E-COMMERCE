@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    background-color: #d97b41;
     padding: 0;;
 }
 
@@ -11,6 +10,7 @@ body {
     justify-content: center;
     position: relative; 
     overflow: hidden;
+    background-color: #d97b41;
 }
 .home_logo {
     position: absolute;
