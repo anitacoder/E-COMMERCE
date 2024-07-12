@@ -6,7 +6,7 @@ const LoginForm = () => {
 
     const handleZoom = () => {
         setIsZoomed(true);
-        setTimeout(() => setIsZoomed(false), 600); // Remove the zoom class after the animation duration
+        setTimeout(() => setIsZoomed(false), 600); 
     };
 
     return (
@@ -16,6 +16,9 @@ const LoginForm = () => {
                 <input type="email" placeholder="Email" className="login-input" />
                 <input type="password" placeholder="Password" className="login-input" />
                 <button className="login-button">Login</button>
+                <div className="signIn">
+                    <p>Or Sign ?</p>
+                </div>
             </div>
         </div>
     );
