@@ -1,6 +1,7 @@
 import React from "react";
 // import Slider from "react-slick";
 import "./Home.css";
+import faceWashImage from "./Images/simple_faceWash.png";
 
 const Home = () => {
     const settings =  {
@@ -30,23 +31,49 @@ const Home = () => {
             </Slider> */}
             <div className="data">
                 <div className="header_container">
-                    <h1>Skincare</h1>
-                    <p>Discover our range of skincare products designed to keep your skin healthy and radiant. From cleansers to moisturizers, we have everything you need for a perfect skincare routine.</p>
+                    <h1 className="skin_text">Skincare</h1>
+                    <p className="product-text">Discover our range of skincare products designed to keep your skin healthy and radiant. From cleansers to moisturizers, we have everything you need for a perfect skincare routine.</p>
                     <button className="skincarebtn">Shop Skincare</button>
                 </div>
-                <h2>Products</h2>
+                <h2 className="products">Products</h2>
                 <div className="box">
                     <div className="box1">
-                        <p>Cer</p>
+                    <img src={faceWashImage} alt="Face Wash" className="faceWash" /> 
+                    <p className="product-txt">Simple</p>
+                    <h1 className="product-heading">Moisturising face wash</h1>
+                    <p className="product-text">For a glowing skin</p>
+                    <button className="add">Add to cart</button>
                     </div>
-                    <div className="box2">hhhh</div>
-                    <div className="box3">hhhh</div>
-                    <div className="box4">hhhh</div>
-                    <div className="box5">hhhh</div>
-                    <div className="box6">hhhh</div>
-                    <div className="box7">hhhh</div>
-                    <div className="box8">hhhh</div>
-                    <div className="box9">hhhh</div>
+                    <div className="box2">
+                    <p className="product-texts">CeraVe Hydrating Facial Cleanser: Gentle, hydrating, and non-foaming, enriched with ceramides and hyaluronic acid for moisturized, nourished skin.</p>
+                    <button className="add">Add to cart</button>
+                    </div>
+                    <div className="box3">
+                    <p className="product-texts">CeraVe Hydrating Facial Cleanser: Gentle, hydrating, and non-foaming, enriched with ceramides and hyaluronic acid for moisturized, nourished skin.</p>
+                    <button className="add">Add to cart</button>
+                    </div>
+                    <div className="box4">
+                    <p className="product-texts">CeraVe Hydrating Facial Cleanser: Gentle, hydrating, and non-foaming, enriched with ceramides and hyaluronic acid for moisturized, nourished skin.</p>
+                    <button className="add">Add to cart</button>
+                    </div>
+                </div>
+                <div className="box_2">
+                    <div className="box10">
+                    <p className="product-texts">CeraVe Hydrating Facial Cleanser: Gentle, hydrating, and non-foaming, enriched with ceramides and hyaluronic acid for moisturized, nourished skin.</p>
+                    <button className="add">Add to cart</button>
+                    </div>
+                    <div className="box11">
+                    <p className="product-texts">CeraVe Hydrating Facial Cleanser: Gentle, hydrating, and non-foaming, enriched with ceramides and hyaluronic acid for moisturized, nourished skin.</p>
+                    <button className="add">Add to cart</button>
+                    </div>
+                    <div className="box12">
+                    <p className="product-texts">CeraVe Hydrating Facial Cleanser: Gentle, hydrating, and non-foaming, enriched with ceramides and hyaluronic acid for moisturized, nourished skin.</p>
+                    <button className="add">Add to cart</button>
+                    </div>
+                    <div className="box13">
+                    <p className="product-texts">CeraVe Hydrating Facial Cleanser: Gentle, hydrating, and non-foaming, enriched with ceramides and hyaluronic acid for moisturized, nourished skin.</p>
+                    <button className="add">Add to cart</button>
+                    </div>
                 </div>
             </div>
         </div>
