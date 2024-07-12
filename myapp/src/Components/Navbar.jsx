@@ -11,7 +11,8 @@ import Header from "./Header"
 const Navbar = () => {
     const [data, setData] = useState(false);
     const [menuOpen, setMenuOpen] = useState(false);
-    const [searchWidth, setSearchWidth] = useState(150); // Initial search bar width
+    const [searchWidth, setSearchWidth] = useState(150); 
+    const [isFocused, setIsFocused] = useState(false); 
     
     const inputHandler = () => {
         setData(!data);
@@ -22,7 +23,7 @@ const Navbar = () => {
     }
 
     const handleSearchWidth = (event) => {
-        setSearchWidth(event.target.value.length * 10); // Adjust multiplier as needed
+        setSearchWidth(event.target.value.length * 10); 
     };
 
     return (
@@ -37,7 +38,7 @@ const Navbar = () => {
                 <Link to="loginForm" className="link">Login</Link>
                 <Link to="/signUp" className="link">SignUp</Link>
             </div>
-                <div>
+            <div className={`search_container ${isFocused ? 'focused' : ''}`}>
                 <SearchIcon className="search_icon_inside" style={{ left: `calc(360px - ${searchWidth}px)` }} />
                 <input type="text" placeholder="Search here" className="search" onChange={handleSearchWidth}/>
                     <CloseIcon onClick={inputHandler} className="close_icon" />
