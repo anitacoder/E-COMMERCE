@@ -26,6 +26,14 @@ const Navbar = () => {
         setSearchWidth(event.target.value.length * 10); 
     };
 
+    const handleFocus = () => {
+        setIsFocused(true);
+    };
+
+    const handleBlur = () => {
+        setIsFocused(false);
+    };
+
     return (
         <>
         <Header/>
