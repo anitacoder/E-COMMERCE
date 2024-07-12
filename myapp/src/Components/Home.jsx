@@ -45,33 +45,54 @@ const Home = () => {
                     <button className="add">Add to cart</button>
                     </div>
                     <div className="box2">
-                    <p className="product-texts">CeraVe Hydrating Facial Cleanser: Gentle, hydrating, and non-foaming, enriched with ceramides and hyaluronic acid for moisturized, nourished skin.</p>
+                    <img src={faceWashImage} alt="Face Wash" className="faceWash" /> 
+                    <p className="product-txt">Simple</p>
+                    <h1 className="product-heading">Moisturising face wash</h1>
+                    <p className="product-text">For a glowing skin</p>
                     <button className="add">Add to cart</button>
                     </div>
                     <div className="box3">
-                    <p className="product-texts">CeraVe Hydrating Facial Cleanser: Gentle, hydrating, and non-foaming, enriched with ceramides and hyaluronic acid for moisturized, nourished skin.</p>
+                    <img src={faceWashImage} alt="Face Wash" className="faceWash" /> 
+                    <p className="product-txt">Simple</p>
+                    <h1 className="product-heading">Moisturising face wash</h1>
+                    <p className="product-text">For a glowing skin</p>
                     <button className="add">Add to cart</button>
                     </div>
                     <div className="box4">
-                    <p className="product-texts">CeraVe Hydrating Facial Cleanser: Gentle, hydrating, and non-foaming, enriched with ceramides and hyaluronic acid for moisturized, nourished skin.</p>
+                    <img src={faceWashImage} alt="Face Wash" className="faceWash" /> 
+                    <p className="product-txt">Simple</p>
+                    <h1 className="product-heading">Moisturising face wash</h1>
+                    <p className="product-text">For a glowing skin</p>
                     <button className="add">Add to cart</button>
                     </div>
                 </div>
                 <div className="box_2">
                     <div className="box10">
-                    <p className="product-texts">CeraVe Hydrating Facial Cleanser: Gentle, hydrating, and non-foaming, enriched with ceramides and hyaluronic acid for moisturized, nourished skin.</p>
+                    <img src={faceWashImage} alt="Face Wash" className="faceWash" /> 
+                    <p className="product-txt">Simple</p>
+                    <h1 className="product-heading">Moisturising face wash</h1>
+                    <p className="product-text">For a glowing skin</p>
                     <button className="add">Add to cart</button>
                     </div>
                     <div className="box11">
-                    <p className="product-texts">CeraVe Hydrating Facial Cleanser: Gentle, hydrating, and non-foaming, enriched with ceramides and hyaluronic acid for moisturized, nourished skin.</p>
+                    <img src={faceWashImage} alt="Face Wash" className="faceWash" /> 
+                    <p className="product-txt">Simple</p>
+                    <h1 className="product-heading">Moisturising face wash</h1>
+                    <p className="product-text">For a glowing skin</p>
                     <button className="add">Add to cart</button>
                     </div>
                     <div className="box12">
-                    <p className="product-texts">CeraVe Hydrating Facial Cleanser: Gentle, hydrating, and non-foaming, enriched with ceramides and hyaluronic acid for moisturized, nourished skin.</p>
+                    <img src={faceWashImage} alt="Face Wash" className="faceWash" /> 
+                    <p className="product-txt">Simple</p>
+                    <h1 className="product-heading">Moisturising face wash</h1>
+                    <p className="product-text">For a glowing skin</p>
                     <button className="add">Add to cart</button>
                     </div>
                     <div className="box13">
-                    <p className="product-texts">CeraVe Hydrating Facial Cleanser: Gentle, hydrating, and non-foaming, enriched with ceramides and hyaluronic acid for moisturized, nourished skin.</p>
+                    <img src={faceWashImage} alt="Face Wash" className="faceWash" /> 
+                    <p className="product-txt">Simple</p>
+                    <h1 className="product-heading">Moisturising face wash</h1>
+                    <p className="product-text">For a glowing skin</p>
                     <button className="add">Add to cart</button>
                     </div>
                 </div>
