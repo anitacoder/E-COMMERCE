@@ -50,12 +50,8 @@ body {
     position: relative;
     left: 210px;
     top: 8px;
-}
-
-.search_icon_inside:focus {
-    position: relative;
-    left: 990px;
-    top: 8px;
+    transition: margin-left 0.3s ease;
+    outline: none;
 }
 
 .search_area {
