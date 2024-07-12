@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom"; // Import the Link component
 import "./LoginForm.css";
 
 const LoginForm = () => {
@@ -17,7 +18,7 @@ const LoginForm = () => {
                 <input type="password" placeholder="Password" className="login-input" />
                 <button className="login-button">Login</button>
                 <div className="signIn">
-                    <p>Or Sign ?</p>
+                <p>Or <Link to="/signUp" className="sign">Sign Up</Link></p> 
                 </div>
             </div>
         </div>
