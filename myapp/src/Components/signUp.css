@@ -6,7 +6,7 @@ h1 {
     color: white;
 }
 
-.login-input {
+.sign-input {
     justify-content: center;
     align-items: center;
     margin: 10px 0;
@@ -18,14 +18,14 @@ h1 {
     top: 70px;
 }
 
-.login-content {
+.signIn-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.login-button {
+.sign-button {
     margin-top: 20px;
     padding: 15px 29px;
     border: none;
@@ -39,20 +39,23 @@ h1 {
     top: 70px;
 }
 
-.login-button:hover {
+.sign-button:hover {
     background-color: #3f5aa7;
 } 
 
 .container {
-    padding: 40px;
+    padding: 0px 0px 40px;
     background-color: #3f5aa7;
     border-radius: 34px;
-    width: 60%;
-    margin: 60px auto;
+    height: 544px;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
     transition: transform 0.3s ease-in-out;
-  }
-  
-  .container:hover {
+}
+
+.container:hover {
     transform: scale(1.05);
   }
 
