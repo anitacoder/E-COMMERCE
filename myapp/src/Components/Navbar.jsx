@@ -25,6 +25,13 @@ const Navbar = () => {
         <Header/>
         <div>
             <div className="navbar_div">
+                  <div>
+                <Link to="/" className="link">Home</Link>
+                <Link to="/contact" className="link">Contact</Link>
+                <Link to="/privacy" className="link">Privacy</Link>
+                <Link to="loginForm" className="link">Login</Link>
+                <Link to="/signUp" className="link">SignUp</Link>
+            </div>
                 <div>
                     <SearchIcon className="search_icon_inside" />
                     <input type="text" placeholder="Search here" className="search" />
@@ -43,13 +50,6 @@ const Navbar = () => {
                         </div>
                 </div>
             </div>
-            </div>
-            <div>
-                <Link to="/" className="link">Home</Link>
-                <Link to="/contact" className="link">Contact</Link>
-                <Link to="/privacy" className="link">Privacy</Link>
-                <Link to="loginForm" className="link">Login</Link>
-                <Link to="/signUp" className="link">SignUp</Link>
             </div>
             {menuOpen && (
                 <div className="sidebar">
