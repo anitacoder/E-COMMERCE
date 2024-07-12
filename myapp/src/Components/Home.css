@@ -64,8 +64,8 @@
 }
 
 .box1 {
-    background-color: blue;
-    height: 370px;
+    background-color: white;
+    height: 390px;
     width: 80%;
     border-radius: 9px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -85,6 +85,8 @@
     border: none;
     background-color:#5477d2;
     color: white;
+    bottom: 50px;
+    position: relative;
 }
 
 .add:hover {
@@ -143,7 +145,7 @@
 }
 
 .product-txt {
-    color: lightgray;
+    color: grey;
     font-family: sans-serif;
     right: 130px;
     top: -30px;
@@ -151,5 +153,16 @@
 }
 
 .product-heading {
-    
+    font-size: 19px;
+    top: -40px;
+    right: 50px;
+    color: black;
+}
+
+.product-text {
+    bottom: 50px;
+    right: 90px;
+    position: relative;
+    color: black;
+    font-family: sans-serif;
 }
