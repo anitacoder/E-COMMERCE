@@ -75,3 +75,13 @@ h1 {
     margin-top: 65px;
     color: white;
 }
+
+.sign {
+    color: white;
+    text-decoration: none;
+}
+
+.sign:hover {
+    text-decoration: underline;
+    color: black;
+}
