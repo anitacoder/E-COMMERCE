@@ -48,7 +48,7 @@ body {
 
 .search_icon_inside {
     position: relative;
-    left: calc(490px - 205px);
+    left: calc(490px - 220px);
     top: 8px;
     transition: left 0.3s ease; 
 }
