@@ -47,8 +47,8 @@ const Navbar = () => {
                 <Link to="/signUp" className="link">SignUp</Link>
             </div>
             <div className={`search_container ${isFocused ? 'focused' : ''}`}>
-                <SearchIcon className="search_icon_inside" style={{ left: `calc(360px - ${searchWidth}px)` }} />
-                <input type="text" placeholder="Search here" className="search" onChange={handleSearchWidth}/>
+            <SearchIcon className="search_icon_inside" style={{ right: `calc(10px + 100% - ${searchWidth}px)` }} />
+            <input type="text" placeholder="Search here" className="search" onChange={handleSearchWidth}/>
                     <CloseIcon onClick={inputHandler} className="close_icon" />
                 </div>
                 <div>

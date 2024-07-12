@@ -48,7 +48,7 @@ body {
 
 .search_icon_inside {
     position: relative;
-    left: calc(570px - 100%);
+    left: calc(490px - 205px);
     top: 8px;
     transition: left 0.3s ease; 
 }
@@ -67,7 +67,7 @@ body {
 .close_icon {
     width: 20%;
     top: 9px;
-    left: 7px;
+    left: 60px;
     cursor: pointer;
     position: relative;
 }
