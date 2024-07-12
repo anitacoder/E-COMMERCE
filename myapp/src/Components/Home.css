@@ -43,3 +43,8 @@
 .skincarebtn:hover {
     background-color: #3f5aa7;
 }
+
+h2 {
+    margin-top: 150px;
+    font-size: 49px;
+}
