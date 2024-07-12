@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useRef} from "react";
 // import Slider from "react-slick";
 import "./Home.css";
 import faceWashImage from "./Images/simple_faceWash.png";
