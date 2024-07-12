@@ -35,6 +35,19 @@ const Home = () => {
                     <button className="skincarebtn">Shop Skincare</button>
                 </div>
                 <h2>Products</h2>
+                <div className="box">
+                    <div className="box1">
+                        <p>Cer</p>
+                    </div>
+                    <div className="box1">hhhh</div>
+                    <div className="box2">hhhh</div>
+                    <div className="box3">hhhh</div>
+                    <div className="box4">hhhh</div>
+                    <div className="box5">hhhh</div>
+                    <div className="box6">hhhh</div>
+                    <div className="box7">hhhh</div>
+                    <div className="box8">hhhh</div>
+                </div>
             </div>
         </div>
     );
