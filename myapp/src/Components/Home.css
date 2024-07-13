@@ -97,6 +97,19 @@
     position: relative;
 }
 
+.add1 {
+    justify-content: center;
+    width: 50%;
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    background-color:#5477d2;
+    color: white;
+    bottom: 70px;
+    position: relative;
+}
+
+
 .add:hover {
     background-color: white;
     color: black;
@@ -208,6 +221,14 @@
     width: 80%;
 }
 
+.facewash {
+    width: 80%;
+}
+
+.facewash2 {
+    width: 60%;
+}
+
 .product-txt {
     color: grey;
     font-family: sans-serif;
@@ -216,12 +237,45 @@
     position: relative;
 }
 
+.product-txt1 {
+    color: grey;
+    font-family: sans-serif;
+    right: 110px;
+    top: -30px;
+    position: relative;
+}
+
+.product-txt2 {
+    color: grey;
+    font-family: sans-serif;
+    right: 110px;
+    top: -49px;
+    position: relative;
+}
+
+
 .product-heading {
     font-size: 19px;
     top: -40px;
     right: 50px;
     color: black;
 }
+
+.product-heading1 {
+    font-size: 19px;
+    top: -40px;
+    right: 59px;
+    color: black;
+}
+
+.product-heading2 {
+    font-size: 19px;
+    top: -58px;
+    right: 69px;
+    color: black;
+}
+
+
 
 .product-text {
     bottom: 50px;
@@ -233,6 +287,23 @@
 
 .product-t {
     bottom: 50px;
+    right: 65px;
+    position: relative;
+    color: black;
+    font-family: sans-serif;
+}
+
+.product-t1 {
+    bottom: 50px;
+    right: 90px;
+    position: relative;
+    color: black;
+    font-family: sans-serif;
+}
+
+
+.product-t2 {
+    bottom: 69px;
     right: 90px;
     position: relative;
     color: black;
