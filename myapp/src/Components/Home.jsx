@@ -4,7 +4,7 @@ import "./Home.css";
 import faceWashImage from "./Images/simple_faceWash.png";
 import glycolicAcid from "./Images/glycolic_acid.png";
 import TheOrdinary  from "./Images/TheOrdinarySerum.png";
-// import CeraVe from "./Images/CeraVe.jpeg";
+import CeraVe from "./Images/ceraVe.jpeg";
 import neutrogena from "./Images/neturogenerFaceWash.png";
 import LaRochePosay from "./Images/la-roche.png";
 import PaulaChoice from "./Images/paula_sChoice.png";
@@ -72,10 +72,10 @@ const Home = () => {
                     <button className="add1">Add to cart</button>
                     </div>
                     <div className="box4">
-                    {/* <img src={CeraVe} alt="Face Wash" className="faceWash" />  */}
-                    <p className="product-txt3">CeraVe</p>
-                    <h1 className="product-heading3">Hydrating Cleanser</h1>
-                    <p className="product-t1">For a normal dry skin</p>
+                    <img src={CeraVe} alt="Face Wash" className="faceWash" /> 
+                    <p className="product-txt7">CeraVe</p>
+                    <h1 className="product-heading7">Hydrating Cleanser</h1>
+                    <p className="product-t6">For a normal dry skin</p>
                     <button className="add">Add to cart</button>
                     </div>
                 </div>
@@ -89,24 +89,24 @@ const Home = () => {
                     </div>
                     <div className="box11">
                     <img src={LaRochePosay} alt="Face Wash" className="faceWash" /> 
-                    <p className="product-txt">La Roche-Posay</p>
-                    <h1 className="product-heading">Toleriane Cleanser</h1>
-                    <p className="product-t">For sensitive skin</p>
+                    <p className="product-txt4">La Roche-Posay</p>
+                    <h1 className="product-heading4">Toleriane Cleanser</h1>
+                    <p className="product-t1">For sensitive skin</p>
                     <button className="add">Add to cart</button>
                     </div>
                     <div className="box12">
                     <img src={PaulaChoice} alt="Face Wash" className="faceWash" /> 
-                    <p className="product-txt">Paula Choice</p>
-                    <h1 className="product-heading">BHA Exfoliant</h1>
-                    <p className="product-t">For clear skin</p>
+                    <p className="product-txt5">Paula Choice</p>
+                    <h1 className="product-heading5">BHA Exfoliant</h1>
+                    <p className="product-t4">For clear skin</p>
                     <button className="add">Add to cart</button>
                     </div>
                     <div className="box13">
-                    <img src={Nivea} alt="Face Wash" className="faceWash" /> 
-                    <p className="product-txt">Nivea</p>
-                    <h1 className="product-heading">Moisturizing Face Wash</h1>
-                    <p className="product-t">For refreshed skin</p>
-                    <button className="add">Add to cart</button>
+                    <img src={Nivea} alt="Face Wash" className="faceWash3" /> 
+                    <p className="product-txt6">Nivea</p>
+                    <h1 className="product-heading6">Moisturizing Face Wash</h1>
+                    <p className="product-t5">For refreshed skin</p>
+                    <button className="add2">Add to cart</button>
                     </div>
                 </div>
             </div>

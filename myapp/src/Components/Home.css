@@ -95,7 +95,14 @@
     color: white;
     bottom: 50px;
     position: relative;
+    font-size: 17px;
 }
+
+.add:hover {
+    background-color: white;
+    color: black;
+}
+
 
 .add1 {
     justify-content: center;
@@ -105,12 +112,32 @@
     border: none;
     background-color:#5477d2;
     color: white;
-    bottom: 70px;
+    bottom: 75px;
     position: relative;
+    font-size: 17px;
 }
 
 
-.add:hover {
+.add1:hover {
+    background-color: white;
+    color: black;
+}
+
+.add2 {
+    justify-content: center;
+    width: 50%;
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    background-color:#5477d2;
+    color: white;
+    bottom: 40px;
+    position: relative;
+    font-size: 17px;
+}
+
+
+.add2:hover {
     background-color: white;
     color: black;
 }
@@ -229,6 +256,10 @@
     width: 60%;
 }
 
+.faceWash3 {
+    width: 65%;
+}
+
 .product-txt {
     color: grey;
     font-family: sans-serif;
@@ -253,6 +284,39 @@
     position: relative;
 }
 
+.product-txt4 {
+    color: grey;
+    font-family: sans-serif;
+    right: 90px;
+    top: -37px;
+    position: relative;
+}
+
+.product-txt5 {
+    color: grey;
+    font-family: sans-serif;
+    right: 105px;
+    top: -27px;
+    position: relative;
+
+}
+
+.product-txt6 {
+    color: grey;
+    font-family: sans-serif;
+    right: 132px;
+    top: -24px;
+    position: relative;
+}
+
+.product-txt7 {
+    color: grey;
+    font-family: sans-serif;
+    right: 129px;
+    top: -24px;
+    position: relative;
+}
+
 .product-heading {
     font-size: 19px;
     top: -40px;
@@ -274,6 +338,34 @@
     color: black;
 }
 
+.product-heading4 {
+    font-size: 19px;
+    top: -45px;
+    right: 69px;
+    color: black;
+}
+
+.product-heading5 {
+    font-size: 19px;
+    top: -40px;
+    right: 89px;
+    color: black;
+}
+
+.product-heading6 {
+    font-size: 19px;
+    top: -35px;
+    right: 45px;
+    color: black;
+}
+
+.product-heading7 {
+    font-size: 19px;
+    top: -35px;
+    right: 68px;
+    color: black;
+}
+
 .product-text {
     bottom: 50px;
     right: 0px;
@@ -281,6 +373,7 @@
     color: black;
     font-family: sans-serif;
 }
+
 
 .product-t {
     bottom: 50px;
@@ -316,3 +409,26 @@
     font-family: sans-serif;
 }
 
+.product-t4 {
+    bottom: 49px;
+    right: 100px;
+    position: relative;
+    color: black;
+    font-family: sans-serif;
+}
+
+.product-t5 {
+    bottom: 40px;
+    right: 85px;
+    position: relative;
+    color: black;
+    font-family: sans-serif;
+}
+
+.product-t6 {
+    bottom: 45px;
+    right: 75px;
+    position: relative;
+    color: black;
+    font-family: sans-serif;
+}
