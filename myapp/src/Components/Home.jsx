@@ -2,8 +2,13 @@ import React, {useRef} from "react";
 // import Slider from "react-slick";
 import "./Home.css";
 import faceWashImage from "./Images/simple_faceWash.png";
-import glycolicAcid from "./Images/glycolic_acid.png"
-import TheOrdinary  from "./Images/TheOrdinarySerum.png"
+import glycolicAcid from "./Images/glycolic_acid.png";
+import TheOrdinary  from "./Images/TheOrdinarySerum.png";
+import CeraVe from "./Images/CeraveCleanser.png";
+import neutrogena from "./Images/neturogenerFaceWash.png";
+import LaRochePosay from "./Images/la-roche.png";
+import PaulaChoice from "./Images/paula_sChoice.png";
+import Nivea from "./Images/nivea.png";
 
 const Home = () => {
     const productSectionRef = useRef(null);
@@ -68,39 +73,39 @@ const Home = () => {
                     </div>
                     <div className="box4">
                     <img src={faceWashImage} alt="Face Wash" className="faceWash" /> 
-                    <p className="product-txt">Simple</p>
-                    <h1 className="product-heading">Moisturising face wash</h1>
-                    <p className="product-t">For a glowing skin</p>
+                    <p className="product-txt">CeraVe</p>
+                    <h1 className="product-heading">Hydrating Cleanser</h1>
+                    <p className="product-t">For a normal dry skin</p>
                     <button className="add">Add to cart</button>
                     </div>
                 </div>
                 <div className="box_2">
                     <div className="box10">
-                    <img src={faceWashImage} alt="Face Wash" className="faceWash" /> 
-                    <p className="product-txt">Simple</p>
-                    <h1 className="product-heading">Moisturising face wash</h1>
-                    <p className="product-t">For a glowing skin</p>
+                    <img src={neutrogena} alt="Face Wash" className="faceWash" /> 
+                    <p className="product-txt">Neutrogena</p>
+                    <h1 className="product-heading">Hydro Boost water gel</h1>
+                    <p className="product-t">For intense hydration</p>
                     <button className="add">Add to cart</button>
                     </div>
                     <div className="box11">
-                    <img src={faceWashImage} alt="Face Wash" className="faceWash" /> 
-                    <p className="product-txt">Simple</p>
-                    <h1 className="product-heading">Moisturising face wash</h1>
-                    <p className="product-t">For a glowing skin</p>
+                    <img src={LaRochePosay} alt="Face Wash" className="faceWash" /> 
+                    <p className="product-txt">La Roche-Posay</p>
+                    <h1 className="product-heading">Toleriane Cleanser</h1>
+                    <p className="product-t">For sensitive skin</p>
                     <button className="add">Add to cart</button>
                     </div>
                     <div className="box12">
-                    <img src={faceWashImage} alt="Face Wash" className="faceWash" /> 
-                    <p className="product-txt">Simple</p>
-                    <h1 className="product-heading">Moisturising face wash</h1>
-                    <p className="product-t">For a glowing skin</p>
+                    <img src={PaulaChoice} alt="Face Wash" className="faceWash" /> 
+                    <p className="product-txt">Paula Choice</p>
+                    <h1 className="product-heading">BHA Exfoliant</h1>
+                    <p className="product-t">For clear skin</p>
                     <button className="add">Add to cart</button>
                     </div>
                     <div className="box13">
-                    <img src={faceWashImage} alt="Face Wash" className="faceWash" /> 
-                    <p className="product-txt">Simple</p>
-                    <h1 className="product-heading">Moisturising face wash</h1>
-                    <p className="product-t">For a glowing skin</p>
+                    <img src={Nivea} alt="Face Wash" className="faceWash" /> 
+                    <p className="product-txt">Nivea</p>
+                    <h1 className="product-heading">Moisturizing Face Wash</h1>
+                    <p className="product-t">For refreshed skin</p>
                     <button className="add">Add to cart</button>
                     </div>
                 </div>
