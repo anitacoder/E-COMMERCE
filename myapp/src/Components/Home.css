@@ -253,7 +253,6 @@
     position: relative;
 }
 
-
 .product-heading {
     font-size: 19px;
     top: -40px;
@@ -274,8 +273,6 @@
     right: 69px;
     color: black;
 }
-
-
 
 .product-text {
     bottom: 50px;
@@ -304,8 +301,18 @@
 
 .product-t2 {
     bottom: 69px;
-    right: 90px;
+    right: 85px;
     position: relative;
     color: black;
     font-family: sans-serif;
 }
+
+
+.product-t3 {
+    bottom: 49px;
+    right: 75px;
+    position: relative;
+    color: black;
+    font-family: sans-serif;
+}
+
