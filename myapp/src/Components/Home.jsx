@@ -4,7 +4,7 @@ import "./Home.css";
 import faceWashImage from "./Images/simple_faceWash.png";
 import glycolicAcid from "./Images/glycolic_acid.png";
 import TheOrdinary  from "./Images/TheOrdinarySerum.png";
-import CeraVe from "./Images/CeraveCleanser.png";
+// import CeraVe from "./Images/CeraVe.jpeg";
 import neutrogena from "./Images/neturogenerFaceWash.png";
 import LaRochePosay from "./Images/la-roche.png";
 import PaulaChoice from "./Images/paula_sChoice.png";
@@ -72,19 +72,19 @@ const Home = () => {
                     <button className="add1">Add to cart</button>
                     </div>
                     <div className="box4">
-                    <img src={faceWashImage} alt="Face Wash" className="faceWash" /> 
-                    <p className="product-txt">CeraVe</p>
-                    <h1 className="product-heading">Hydrating Cleanser</h1>
-                    <p className="product-t">For a normal dry skin</p>
+                    {/* <img src={CeraVe} alt="Face Wash" className="faceWash" />  */}
+                    <p className="product-txt3">CeraVe</p>
+                    <h1 className="product-heading3">Hydrating Cleanser</h1>
+                    <p className="product-t1">For a normal dry skin</p>
                     <button className="add">Add to cart</button>
                     </div>
                 </div>
                 <div className="box_2">
                     <div className="box10">
                     <img src={neutrogena} alt="Face Wash" className="faceWash" /> 
-                    <p className="product-txt">Neutrogena</p>
+                    <p className="product-txt1">Neutrogena</p>
                     <h1 className="product-heading">Hydro Boost water gel</h1>
-                    <p className="product-t">For intense hydration</p>
+                    <p className="product-t3">For intense hydration</p>
                     <button className="add">Add to cart</button>
                     </div>
                     <div className="box11">
