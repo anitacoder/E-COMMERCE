@@ -41,10 +41,9 @@ const Navbar = () => {
                   <div>
                 <Link to="/" className="link">Home</Link>
                 <Link to="/about" className="link">About</Link>
-                <Link to="/contact" className="link">Contact</Link>
-                <Link to="/privacy" className="link">Privacy</Link>
                 <Link to="loginForm" className="link">Login</Link>
                 <Link to="/signUp" className="link">SignUp</Link>
+                <Link to="/contact" className="link">Contact</Link>
             </div>
             <div className={`search_container ${isFocused ? 'focused' : ''}`}>
             <SearchIcon className="search_icon_inside" style={{ right: `calc(10px + 100% - ${searchWidth}px)` }} />
@@ -67,10 +66,9 @@ const Navbar = () => {
                 <div className="sidebar">
                     <Link to="/" className="sidebar_link">Home</Link>
                     <Link to="/about" className="sidebar_link">About</Link>
-                    <Link to="/contact" className="sidebar_link">Contact</Link>
-                    <Link to="/privacy" className="sidebar_link">Privacy</Link>
                     <Link to="loginForm" className="sidebar_link">Login</Link>
                     <Link to="/signUp" className="sidebar_link">SignUp</Link>
+                    <Link to="/contact" className="sidebar_link">Contact</Link>
                 </div>
             )}
         </div>

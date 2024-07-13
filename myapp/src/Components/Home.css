@@ -1,9 +1,8 @@
 .home_header {
-    margin-top: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 1900px;
     background-color: #f8f8f8;
 }
 
@@ -17,6 +16,7 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: transform .2s ease-out, box-shadow .2s ease;
+    margin-top: 490px;
 }
 
 .header_container:hover {
@@ -26,7 +26,7 @@
 
 
 .header_container h1 {
-    font-family: 'Arial', sans-serif;
+    font-family: sans-serif;
     font-size: 36px;
     margin-bottom: 20px;
 }
@@ -61,7 +61,6 @@
     display: flex;
     margin-left: 20px;
     justify-content: space-around;
-
 }
 
 .box_2 {
@@ -76,6 +75,7 @@
     height: 390px;
     width: 80%;
     border-radius: 9px;
+    padding: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform .2s ease-out, box-shadow .2s ease;
 }
@@ -150,6 +150,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform .2s ease-out, box-shadow .2s ease;
     margin-left: 30px;
+    padding: 5px;
 }
 
 .box2:hover {
@@ -164,6 +165,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform .2s ease-out, box-shadow .2s ease;
     margin-left: 30px;
+    padding: 5px;
 }
 
 .box3:hover {
@@ -178,6 +180,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform .2s ease-out, box-shadow .2s ease;
     margin-left: 30px;
+    padding: 5px;
 }
 
 .box4:hover {
@@ -191,6 +194,7 @@
     width: 80%;
     border-radius: 9px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 5px;
     transition: transform .2s ease-out, box-shadow .2s ease;
 }
 
@@ -207,6 +211,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform .2s ease-out, box-shadow .2s ease;
     margin-left: 30px;
+    padding: 5px;
 }
 
 .box11:hover {
@@ -222,6 +227,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform .2s ease-out, box-shadow .2s ease;
     margin-left: 30px;
+    padding: 5px;
 }
 
 .box12:hover {
@@ -237,6 +243,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform .2s ease-out, box-shadow .2s ease;
     margin-left: 30px;
+    padding: 5px;
 }
 
 .box13:hover {
@@ -266,6 +273,7 @@
     right: 130px;
     top: -30px;
     position: relative;
+    font-weight: 300;
 }
 
 .product-txt1 {
@@ -274,6 +282,7 @@
     right: 110px;
     top: -30px;
     position: relative;
+    font-weight: 300;
 }
 
 .product-txt2 {
@@ -282,6 +291,7 @@
     right: 110px;
     top: -49px;
     position: relative;
+    font-weight: 300;
 }
 
 .product-txt4 {
@@ -290,6 +300,7 @@
     right: 90px;
     top: -37px;
     position: relative;
+    font-weight: 300;
 }
 
 .product-txt5 {
@@ -298,15 +309,16 @@
     right: 105px;
     top: -27px;
     position: relative;
-
+    font-weight: 300;
 }
 
 .product-txt6 {
     color: grey;
     font-family: sans-serif;
-    right: 132px;
+    right: 128px;
     top: -24px;
     position: relative;
+    font-weight: 300;
 }
 
 .product-txt7 {
@@ -418,8 +430,8 @@
 }
 
 .product-t5 {
-    bottom: 40px;
-    right: 85px;
+    bottom: 45px;
+    right: 75px;
     position: relative;
     color: black;
     font-family: sans-serif;
