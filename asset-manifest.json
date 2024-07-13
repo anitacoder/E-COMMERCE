@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/e-commerce/static/css/main.3908e244.chunk.css",
-    "main.js": "/e-commerce/static/js/main.1d5ac456.chunk.js",
-    "main.js.map": "/e-commerce/static/js/main.1d5ac456.chunk.js.map",
+    "main.css": "/e-commerce/static/css/main.1b59c387.chunk.css",
+    "main.js": "/e-commerce/static/js/main.cd302494.chunk.js",
+    "main.js.map": "/e-commerce/static/js/main.cd302494.chunk.js.map",
     "runtime-main.js": "/e-commerce/static/js/runtime-main.50e3c1f6.js",
     "runtime-main.js.map": "/e-commerce/static/js/runtime-main.50e3c1f6.js.map",
-    "static/js/2.49c6ab58.chunk.js": "/e-commerce/static/js/2.49c6ab58.chunk.js",
-    "static/js/2.49c6ab58.chunk.js.map": "/e-commerce/static/js/2.49c6ab58.chunk.js.map",
+    "static/js/2.743501a7.chunk.js": "/e-commerce/static/js/2.743501a7.chunk.js",
+    "static/js/2.743501a7.chunk.js.map": "/e-commerce/static/js/2.743501a7.chunk.js.map",
     "index.html": "/e-commerce/index.html",
-    "precache-manifest.4d29212630af892a063bc34118efcf3c.js": "/e-commerce/precache-manifest.4d29212630af892a063bc34118efcf3c.js",
+    "precache-manifest.7287a2349e0ae17bea7ced402e26a68b.js": "/e-commerce/precache-manifest.7287a2349e0ae17bea7ced402e26a68b.js",
     "service-worker.js": "/e-commerce/service-worker.js",
-    "static/css/main.3908e244.chunk.css.map": "/e-commerce/static/css/main.3908e244.chunk.css.map",
-    "static/js/2.49c6ab58.chunk.js.LICENSE.txt": "/e-commerce/static/js/2.49c6ab58.chunk.js.LICENSE.txt",
+    "static/css/main.1b59c387.chunk.css.map": "/e-commerce/static/css/main.1b59c387.chunk.css.map",
+    "static/js/2.743501a7.chunk.js.LICENSE.txt": "/e-commerce/static/js/2.743501a7.chunk.js.LICENSE.txt",
+    "static/media/TheOrdinarySerum.png": "/e-commerce/static/media/TheOrdinarySerum.c79ffd2f.png",
+    "static/media/glycolic_acid.png": "/e-commerce/static/media/glycolic_acid.a02e7e81.png",
+    "static/media/la-roche.png": "/e-commerce/static/media/la-roche.64ad87f7.png",
+    "static/media/neturogenerFaceWash.png": "/e-commerce/static/media/neturogenerFaceWash.f9c56df8.png",
+    "static/media/nivea.png": "/e-commerce/static/media/nivea.b4593f5f.png",
+    "static/media/paula_sChoice.png": "/e-commerce/static/media/paula_sChoice.752f9675.png",
     "static/media/simple_faceWash.png": "/e-commerce/static/media/simple_faceWash.ab833d99.png"
   },
   "entrypoints": [
     "static/js/runtime-main.50e3c1f6.js",
-    "static/js/2.49c6ab58.chunk.js",
-    "static/css/main.3908e244.chunk.css",
-    "static/js/main.1d5ac456.chunk.js"
+    "static/js/2.743501a7.chunk.js",
+    "static/css/main.1b59c387.chunk.css",
+    "static/js/main.cd302494.chunk.js"
   ]
 }
