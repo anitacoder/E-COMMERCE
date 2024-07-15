@@ -1,6 +1,6 @@
 import React from "react";
 import "./contact.css";
-// import lady from "./Images/lady.jpeg";
+// import lady from "./Images/lady.png";
 
 const contact = () => {
     return (
