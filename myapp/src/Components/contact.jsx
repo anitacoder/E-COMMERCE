@@ -1,11 +1,18 @@
 import React from "react";
 import "./contact.css";
+// import lady from "./Images/lady.jpeg";
 
 const contact = () => {
     return (
         <div>
+            <div className="contact-container">
+                <h4 className="contact-text">Contact us</h4>
+                <div className="lady">
+                    {/* <img src={lady} alt="Face Wash" className="lady" /> */}
+                </div>
+            </div>
             <div className="contact-content">
-                <h1 className="contact">Contact Us</h1>
+                <h1 className="contact">Talk To Us</h1>
                 <input type="email" placeholder="Email" className="contact-input" />
                 <label className="email">Email: </label>
                 <input type="password" placeholder="Password" className="contact-input1" />

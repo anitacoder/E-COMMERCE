@@ -26,6 +26,7 @@ body {
     position: relative;
     margin-left: 25px;
     text-decoration: none;
+    font-family: sans-serif;
 }
 
 .search {
