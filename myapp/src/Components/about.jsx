@@ -1,16 +1,60 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./about.css";
 import neutrogena from "./Images/neturogenerFaceWash.png";
 import moisturizing from "./Images/moisturizing_cream.png";
 import serum from "./Images/serum.png";
-// import StarIcon from '@mui/icons-material/Star';
+import StarBorderIcon from '@mui/icons-material/StarBorder';
+import StarIcon from '@mui/icons-material/Star';
+
+const testimonialsData = [
+    {
+        text: "I was skeptical at first, but their anti-aging serum has really reduced the appearance of my fine lines and wrinkles.",
+        author: "Sarah L.",
+        rating: 5
+    },
+
+    {
+        text: "Their cleansers are so gentle yet effective. My skin feels so clean and refreshed after every use.",
+        author: "Mark T.",
+        rating: 4
+    },
+
+    {
+        text: "The hydrating creams have done wonders for my dry skin. I highly recommend them to anyone struggling with dryness.",
+        author: "Micheal W.",
+        rating: 3
+    },
+
+    {
+        text:"I love how their products are made from natural ingredients. My skin feels healthier and more radiant.",
+        author: "Emily S.",
+        rating: 5
+    },
+]
+
+const renderStars = (rating) => {
+    const stars = [];
+    for(let i = 0; i < 5; i++){
+        stars.push(i < rating ? <StarIcon key={i}/> : <StarBorderIcon key={i}/>)
+    }
+    return stars;
+};
 
 const About = () => {
+    const [currentTestimonials, setCurrentTestimonials] = useState(0);
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentTestimonials((preTestimonial) => 
+            preTestimonial === testimonialsData.length - 1 ? 0 : preTestimonial + 1
+            );
+        }, 3000);
+        return () => clearInterval(interval);
+    }, []);
     return (
         <><div>
-            <div className="about-top-content">jjj
+            <div className="about-top-content">
             </div>
-        </div><div className="about-container">
+        <div className="about-container">
                 <h1 className="about-title">About Us</h1>
                 <p className="about-intro">
                     Welcome to our skincare product page. We are dedicated to helping you achieve healthier and radiant skin. Our range of products is curated to meet your skincare needs. Whether you are looking for gentle cleansers, hydrating moisturizers, or specialized treatments, we have you covered.
@@ -53,7 +97,7 @@ const About = () => {
                     </div>
                     <img src={serum} alt="Face Wash" className="FaceWash1" />
                 </div>
-                <h2 className="section-title">Why Choose Us?</h2>
+                <h2 className="section-title4">Why Choose Us?</h2>
                 <ul className="why-choose-us-list">
                     <li className="why-choose-us-item">
                         <h4>Premium Ingredients</h4>
@@ -85,23 +129,15 @@ const About = () => {
                     </li>
                 </ul>
 
-                <h2 className="section-title">Customer Testimonials</h2>
+                <h2 className="section-title5">Customer Testimonials</h2>
                 <div className="testimonials">
                     <div className="testimonial">
-                        <p>"I've been using their moisturizers for a few months now, and my skin has never felt better!"</p>
-                        <p>- Jane D.</p>
+                        <p>"{testimonialsData[currentTestimonials].text}"</p>
+                        <p>- {testimonialsData[currentTestimonials].author}</p>
+                        <div className="rating">
+                            {renderStars(testimonialsData[currentTestimonials].rating)}
+                        </div>
                     </div>
-                    <div className="testimonial2">
-                        <p>"Their cleansers are so gentle yet effective. My skin feels so clean and refreshed after every use."</p>
-                        <p>- Mark T.</p>
-                    </div>
-                    <div className="testimonial3">
-                        <p>"The treatments and serums are amazing. I've seen a noticeable improvement in my skin texture and tone."</p>
-                        <p>- Lisa R.</p>
-                    </div>
-                    <div className="testimonial4">
-                        <p>"The treatments and serums are amazing. I've seen a noticeable improvement in my skin texture and tone."</p>
-                        <p>- Lisa R.</p>
                     </div>
                 </div>
             </div></>
