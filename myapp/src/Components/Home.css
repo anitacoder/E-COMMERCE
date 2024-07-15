@@ -83,6 +83,7 @@
 .products {
     margin-top: 150px;
     font-size: 49px;
+    font-family: sans-serif;
 }
 
 .box {
@@ -100,7 +101,7 @@
 
 .box1 {
     background-color: white;
-    height: 390px;
+    height: 410px;
     width: 80%;
     border-radius: 9px;
     padding: 5px;
@@ -111,6 +112,10 @@
 .box1:hover {
     transform: scale(0.95);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.box1-content {
+    display: flex;
 }
 
 .add {
@@ -140,7 +145,7 @@
     border: none;
     background-color:#5477d2;
     color: white;
-    bottom: 75px;
+    bottom: 125px;
     position: relative;
     font-size: 17px;
 }
@@ -159,7 +164,7 @@
     border: none;
     background-color:#5477d2;
     color: white;
-    bottom: 40px;
+    bottom: 90px;
     position: relative;
     font-size: 17px;
 }
@@ -170,9 +175,30 @@
     color: black;
 }
 
+.add4 {
+    justify-content: center;
+    width: 50%;
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    background-color:#5477d2;
+    color: white;
+    bottom: 105px;
+    position: relative;
+    font-size: 17px;
+}
+
+
+.add4:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
 .box2 {
     background-color: white;
-    height: 390px;
+    height: 410px;
     width: 80%;
     border-radius: 9px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -187,7 +213,7 @@
 }
 .box3 {
     background-color: white;
-    height: 390px;
+    height: 410px;
     width: 80%;
     border-radius: 9px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -202,7 +228,7 @@
 }
 .box4 {
     background-color: white;
-    height: 390px;
+    height: 410px;
     width: 80%;
     border-radius: 9px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -218,7 +244,7 @@
 
 .box10 {
     background-color: white;
-    height: 390px;
+    height: 410px;
     width: 80%;
     border-radius: 9px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -233,7 +259,7 @@
 
 .box11 {
     background-color: white;
-    height: 390px;
+    height: 410px;
     width: 80%;
     border-radius: 9px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -249,7 +275,7 @@
 
 .box12 {
     background-color: white;
-    height: 390px;
+    height: 410px;
     width: 80%;
     border-radius: 9px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -265,7 +291,7 @@
 
 .box13 {
     background-color: white;
-    height: 390px;
+    height: 410px;
     width: 80%;
     border-radius: 9px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -471,4 +497,40 @@
     position: relative;
     color: black;
     font-family: sans-serif;
+}
+
+.ratings {
+        color: #f39c12;
+        font-size: 1.2em;
+        top: -60px;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        margin-left: 120px;
+}
+
+.price {
+    position: relative;
+    top: -85px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.rates {
+    color: #f39c12;
+    font-size: 1.2em;
+    top: -80px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-left: 120px;
+}
+
+.prices {
+position: relative;
+top: -105px;
+margin-left: 10px;
+font-size: 18px;
+font-family: sans-serif;
 }
