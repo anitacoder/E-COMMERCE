@@ -94,7 +94,7 @@ body {
 }
 
 .sidebar {
-    margin-left: 1260px; /* Adjust as needed */
+    margin-left: 1260px; 
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -104,6 +104,7 @@ body {
     z-index: 10;
     position:absolute;
     width: 150px;
+    top: 53px;
 }
 
 .sidebar_link {

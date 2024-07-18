@@ -377,3 +377,53 @@ body {
         height: 31%;
     }
 }
+
+@media screen and (max-width: 1024px){
+    .about-top-content {
+        background-color: #5478d2;
+        width: 104%; 
+        position: relative;
+        height: 390px;
+        padding: 0 10px; 
+        box-sizing: border-box; 
+    }
+
+    .section-title {
+        margin-left: 350px;
+    }
+
+    .section-title2 {
+        margin-left: 480px;
+    }
+
+    .section-title3 {
+        margin-left: 410px;
+    }
+
+    .section-title4 {
+        margin-left: 410px;
+    }
+
+    .section-title5 {
+        margin-left: 410px;
+    }
+
+    .FaceWash1 {
+        width: 45%;
+        position: relative;
+        left: -70px;
+        object-fit: contain;
+    }
+
+    .FaceWash {
+        width: 45%;
+        object-fit: contain;
+        left: -70px;
+        position: relative;
+    }
+
+    .testimonials {
+        position: relative;
+        left: -120px;
+    }
+}
