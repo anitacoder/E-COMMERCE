@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/e-commerce/static/css/main.0f3c35f2.chunk.css",
-    "main.js": "/e-commerce/static/js/main.18328eda.chunk.js",
-    "main.js.map": "/e-commerce/static/js/main.18328eda.chunk.js.map",
+    "main.css": "/e-commerce/static/css/main.d78a7583.chunk.css",
+    "main.js": "/e-commerce/static/js/main.007081be.chunk.js",
+    "main.js.map": "/e-commerce/static/js/main.007081be.chunk.js.map",
     "runtime-main.js": "/e-commerce/static/js/runtime-main.50e3c1f6.js",
     "runtime-main.js.map": "/e-commerce/static/js/runtime-main.50e3c1f6.js.map",
-    "static/js/2.b344b0bb.chunk.js": "/e-commerce/static/js/2.b344b0bb.chunk.js",
-    "static/js/2.b344b0bb.chunk.js.map": "/e-commerce/static/js/2.b344b0bb.chunk.js.map",
+    "static/js/2.504b0bdc.chunk.js": "/e-commerce/static/js/2.504b0bdc.chunk.js",
+    "static/js/2.504b0bdc.chunk.js.map": "/e-commerce/static/js/2.504b0bdc.chunk.js.map",
     "index.html": "/e-commerce/index.html",
-    "precache-manifest.19e16634f8befff8bf5c949914a8508e.js": "/e-commerce/precache-manifest.19e16634f8befff8bf5c949914a8508e.js",
+    "precache-manifest.5609bc0aecc5093a036201c548bd7181.js": "/e-commerce/precache-manifest.5609bc0aecc5093a036201c548bd7181.js",
     "service-worker.js": "/e-commerce/service-worker.js",
-    "static/css/main.0f3c35f2.chunk.css.map": "/e-commerce/static/css/main.0f3c35f2.chunk.css.map",
-    "static/js/2.b344b0bb.chunk.js.LICENSE.txt": "/e-commerce/static/js/2.b344b0bb.chunk.js.LICENSE.txt",
+    "static/css/main.d78a7583.chunk.css.map": "/e-commerce/static/css/main.d78a7583.chunk.css.map",
+    "static/js/2.504b0bdc.chunk.js.LICENSE.txt": "/e-commerce/static/js/2.504b0bdc.chunk.js.LICENSE.txt",
     "static/media/TheOrdinarySerum.png": "/e-commerce/static/media/TheOrdinarySerum.c79ffd2f.png",
     "static/media/ceraVe.jpeg": "/e-commerce/static/media/ceraVe.3a405e44.jpeg",
     "static/media/glycolic_acid.png": "/e-commerce/static/media/glycolic_acid.a02e7e81.png",
@@ -21,12 +21,13 @@
     "static/media/nivea.png": "/e-commerce/static/media/nivea.b4593f5f.png",
     "static/media/paula_sChoice.png": "/e-commerce/static/media/paula_sChoice.752f9675.png",
     "static/media/serum.png": "/e-commerce/static/media/serum.b3f7a48c.png",
-    "static/media/simple_faceWash.png": "/e-commerce/static/media/simple_faceWash.ab833d99.png"
+    "static/media/simple_faceWash.png": "/e-commerce/static/media/simple_faceWash.ab833d99.png",
+    "static/media/skincareVideo.mp4": "/e-commerce/static/media/skincareVideo.990465ff.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.50e3c1f6.js",
-    "static/js/2.b344b0bb.chunk.js",
-    "static/css/main.0f3c35f2.chunk.css",
-    "static/js/main.18328eda.chunk.js"
+    "static/js/2.504b0bdc.chunk.js",
+    "static/css/main.d78a7583.chunk.css",
+    "static/js/main.007081be.chunk.js"
   ]
 }
