@@ -30,8 +30,8 @@ const Home = () => {
     return (
         <><div className="home-content">
             <h6>Healthy Skin <br></br>without<br></br>harm to Nature</h6>
-            <video width="800" autoPlay loop muted>
-                <source src={skincareVideo} type="video/mp4" className="video"/>
+            <video className="video" width="800" autoPlay loop muted>
+                <source src={skincareVideo} type="video/mp4"/>
             </video>
         </div><div className="home_header">
                 <div className="data">

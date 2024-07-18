@@ -11,7 +11,13 @@
 }
 
 .video {
-    border-radius: 30px;
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    margin-top: 40px;
+    margin-left: 120px;
+    object-fit: cover;
 }
 
 h6 {
