@@ -5,7 +5,6 @@ import SearchIcon from '@mui/icons-material/Search';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import Header from "./Header"
 
 const Navbar = () => {
     const [data, setData] = useState(false);
@@ -35,7 +34,6 @@ const Navbar = () => {
 
     return (
         <>
-        <Header/>
         <div className="navbar_container">
             <div className="navbar_div">
                   <div>

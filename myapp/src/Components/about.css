@@ -295,3 +295,85 @@ body {
     position: relative;
     justify-content: center;
 }
+
+@media screen and (max-width: 1280px) {
+  .section-title {
+    right: 45px;
+  }
+
+  .section-title2 {
+    right: 75px;
+  }
+
+  .section-title3 {
+    right: 65px;
+  }
+
+  .section-title4 {
+    right: 45px;
+  }
+
+  .section-title5 {
+    right: 45px;
+  }
+
+  .testimonials{
+        position: relative;
+        margin-left: 50px;
+        width: 990px;
+    }
+
+    .testimonial {
+        font-size: 24px;
+    }
+
+    .why-choose-us-item {
+        font-size: 19px;
+    }
+
+    .why-choose-us-item2 {
+        font-size: 19px;
+    }
+
+    .why-choose-us-item3 {
+        font-size: 19px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .FaceWash {
+        width: 30%;
+        object-fit: cover;
+        margin-top: 90px;
+    }
+
+    .FaceWash1{
+        margin-top: 90px;
+    }
+
+    .product-title {
+        font-size: 29px;
+    }
+
+    .product-description {
+        font-size: 18px;
+    }
+
+    .product-category {
+        height: 30%;
+    }
+
+    .product-category1 {
+        height: 31%;
+    }
+
+    .product-category2 {
+        height: 31%;
+    }
+}
