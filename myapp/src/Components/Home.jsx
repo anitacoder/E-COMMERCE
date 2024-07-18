@@ -28,7 +28,7 @@ const Home = () => {
 
     return (
         <><div className="home-content">
-            <h6>Health Skin <br></br>without<br></br>harm to Nature</h6>
+            <h6>Healthy Skin <br></br>without<br></br>harm to Nature</h6>
         </div><div className="home_header">
                 <div className="data">
                     <div className="header_container">
