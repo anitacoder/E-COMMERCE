@@ -426,4 +426,83 @@ body {
         position: relative;
         left: -120px;
     }
+
+    .product-category {
+        width: 90%;
+        position: relative;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .about-top-content {
+        background-color: #5478d2;
+        width: 123%; 
+        position: relative;
+        height: 390px;
+        padding: 0 10px; 
+        box-sizing: border-box; 
+    }
+
+    .about-title {
+        margin-left: 180px;
+    }
+
+    .about-intro {
+        margin-left: 190px;       
+    }
+
+    .section-title {
+        position: relative;
+        left: -100px;
+       white-space: nowrap;
+    }
+
+    .section-title2 {
+        margin-left: 440px;
+    }
+
+    .section-title3 {
+        margin-left: 370px;
+    }
+
+    .section-title4 {
+        margin-left: 390px;
+    }
+
+    .section-title5 {
+        margin-left: 340px;
+        white-space: nowrap;
+    }
+
+    .section-content {
+        margin-left: 190px;
+        font-size: 25px;
+    }
+
+    .section1 {
+        width: 130%;
+    }
+
+    .section2 {
+        width: 130%;
+        right: 160px;
+    }
+
+    .section3 {
+        width: 130%;
+    }
+
+    .product-description {
+        font-size: 20px;
+    }
+
+    .FaceWash {
+        width: 40%;
+        left: 10px;
+    }
+
+    .FaceWash1 {
+        width: 45%;
+    }
 }
