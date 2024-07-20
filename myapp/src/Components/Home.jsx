@@ -83,7 +83,7 @@ const Home = () => {
                         </div>
                         <div className="box4">
                             <img src={CeraVe} alt="Face Wash" className="faceWash" />
-                            <p className="product-txt6">CeraVe</p>
+                            <p className="product-txt8">CeraVe</p>
                             <h1 className="product-heading7">Hydrating Cleanser</h1>
                             <p className="product-t5">For a normal dry skin</p>
                             <div className="box1-content">
@@ -99,7 +99,7 @@ const Home = () => {
                         <div className="box10">
                             <img src={neutrogena} alt="Face Wash" className="faceWash" />
                             <p className="product-txt1">Neutrogena</p>
-                            <h1 className="product-heading">Hydro Boost water gel</h1>
+                            <h1 className="product-heading9">Hydro Boost water gel</h1>
                             <p className="product-t3">For intense hydration</p>
                             <div className="box1-content">
                                 <h5 className="price">$25.00</h5>
@@ -113,7 +113,7 @@ const Home = () => {
                             <img src={LaRochePosay} alt="Face Wash" className="faceWash" />
                             <p className="product-txt4">La Roche-Posay</p>
                             <h1 className="product-heading4">Toleriane Cleanser</h1>
-                            <p className="product-t1">For sensitive skin</p>
+                            <p className="product-t9">For sensitive skin</p>
                             <div className="box1-content">
                                 <h5 className="price">$25.00</h5>
                                 <div className="ratings">
@@ -126,7 +126,7 @@ const Home = () => {
                             <img src={PaulaChoice} alt="Face Wash" className="faceWash" />
                             <p className="product-txt5">Paula Choice</p>
                             <h1 className="product-heading5">BHA Exfoliant</h1>
-                            <p className="product-t4">For clear skin</p>
+                            <p className="product-t10">For clear skin</p>
                             <div className="box1-content">
                                 <h5 className="price">$25.00</h5>
                                 <div className="ratings">
@@ -137,9 +137,9 @@ const Home = () => {
                         </div>
                         <div className="box13">
                             <img src={Nivea} alt="Face Wash" className="faceWash3" />
-                            <p className="product-txt6">Nivea</p>
+                            <p className="product-txt9">Nivea</p>
                             <h1 className="product-heading6">Moisturizing Face Wash</h1>
-                            <p className="product-t5">For refreshed skin</p>
+                            <p className="product-t11">For refreshed skin</p>
                             <div className="box1-content">
                                 <h5 className="price">$25.00</h5>
                                 <div className="ratings">
