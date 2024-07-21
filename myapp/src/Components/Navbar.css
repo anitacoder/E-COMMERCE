@@ -132,3 +132,34 @@ body {
         position: relative;
     }
 }
+
+@media screen and (max-width: 480px){
+    .link {
+        margin-left: 15px;
+    }
+
+    .menu_icon {
+        left: 64px;
+    }
+    .search {
+        width: 290%;
+        margin-left: 10px;
+    }
+
+    .menu_icon {
+        position: relative;
+        left: 208px;
+    }
+
+    .localMall_icon {
+        position: relative;
+        left: 210px;
+    }
+
+    .close_icon {
+        position: relative;
+        top:-25px;
+        left: 220px;
+    }
+}
+
