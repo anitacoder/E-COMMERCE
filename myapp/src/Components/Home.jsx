@@ -113,7 +113,7 @@ const Home = () => {
                         </div>
                         <div className="box11">
                             <img src={LaRochePosay} alt="Face Wash" className="faceWash" />
-                            <p className="product-txt4">La Roche-Posay</p>
+                            <p className="product-txt11">La Roche-Posay</p>
                             <h1 className="product-heading4">Toleriane Cleanser</h1>
                             <p className="product-t9">For sensitive skin</p>
                             <div className="box1-content">
