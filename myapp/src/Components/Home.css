@@ -406,6 +406,22 @@ h6 {
     position: relative;
 }
 
+.product-txt8 {
+    color: grey;
+    font-family: sans-serif;
+    right: 129px;
+    top: -24px;
+    position: relative;
+}
+
+.product-txt9 {
+    color: grey;
+    font-family: sans-serif;
+    right: 129px;
+    top: -24px;
+    position: relative;
+}
+
 .product-heading {
     font-size: 19px;
     top: -40px;
@@ -437,7 +453,7 @@ h6 {
 .product-heading5 {
     font-size: 19px;
     top: -40px;
-    right: 89px;
+    right: 91px;
     color: black;
 }
 
@@ -454,6 +470,21 @@ h6 {
     right: 68px;
     color: black;
 }
+
+.product-heading9 {
+    font-size: 19px;
+    top: -39px;
+    right: 52px;
+    color: black;
+}
+
+.product-heading10 {
+    font-size: 19px;
+    top: -35px;
+    right: 68px;
+    color: black;
+}
+
 
 .product-text {
     bottom: 50px;
@@ -492,7 +523,7 @@ h6 {
 
 .product-t3 {
     bottom: 49px;
-    right: 75px;
+    right: 76px;
     position: relative;
     color: black;
     font-family: sans-serif;
@@ -508,7 +539,7 @@ h6 {
 
 .product-t5 {
     bottom: 45px;
-    right: 75px;
+    right: 80px;
     position: relative;
     color: black;
     font-family: sans-serif;
@@ -517,6 +548,30 @@ h6 {
 .product-t6 {
     bottom: 45px;
     right: 75px;
+    position: relative;
+    color: black;
+    font-family: sans-serif;
+}
+
+.product-t9 {
+    bottom: 55px;
+    right: 89px;
+    position: relative;
+    color: black;
+    font-family: sans-serif;
+}
+
+.product-t10 {
+    bottom: 52px;
+    right: 106px;
+    position: relative;
+    color: black;
+    font-family: sans-serif;
+}
+
+.product-t11 {
+    bottom: 45px;
+    right: 89px;
     position: relative;
     color: black;
     font-family: sans-serif;
@@ -678,12 +733,13 @@ font-family: sans-serif;
         margin-top: 65px;
         height: 535px;
     }
-
-    .product-txt6 {
-        margin-top: 40px;
-        font-size: 23px;
-        left: -150px;
+    .product-txt8 {
+        color: grey;
+        font-family: sans-serif;
+        right: 149px;
+        top: -24px;
         position: relative;
+        font-size: 23px;
     }
 
     .product-heading7 {
@@ -709,6 +765,11 @@ font-family: sans-serif;
         font-size: 19px;
     }
 
+    .product-heading9 {
+        left: -70px;
+        font-size: 23px;
+    }
+
     .box11 {
         margin-left: 50px;
         margin-top: 65px;
@@ -727,6 +788,12 @@ font-family: sans-serif;
         font-size: 23px;
     }
 
+    .product-t9 {
+        position: relative;
+        right: 115px;
+        font-size: 19px;
+    }
+    
     .box12 {
         margin-left: 50px;
         margin-top: 65px;
@@ -745,7 +812,6 @@ font-family: sans-serif;
         font-size: 23px;
     }
 
-
     .product-txt4 {
         margin-top: 40px;
         font-size: 23px;
@@ -753,6 +819,12 @@ font-family: sans-serif;
         position: relative;
     }
 
+    .product-t10 {
+        position: relative;
+        right: 135px;
+        font-size: 19px;
+    }
+    
     .box13 {
         margin-left: 50px;
         margin-top: 65px;  
@@ -774,4 +846,18 @@ font-family: sans-serif;
     .add2 {
         top: -102px;
     }
+
+    .product-t11 {
+        position: relative;
+        right: 115px;
+        font-size: 19px;
+    }
+
+    .product-txt9 {
+        margin-top: 40px;
+        font-size: 23px;
+        left: -160px;
+        position: relative;
+    }
+    
 }
