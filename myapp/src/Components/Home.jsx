@@ -117,12 +117,12 @@ const Home = () => {
                             <h1 className="product-heading4">Toleriane Cleanser</h1>
                             <p className="product-t9">For sensitive skin</p>
                             <div className="box1-content">
-                                <h5 className="price">$28.50</h5>
-                                <div className="ratings">
+                                <h5 className="p">$28.50</h5>
+                                <div className="r">
                                     {renderStar(5)}
                                 </div>
                             </div>
-                            <button className="add4">Add to cart</button>
+                            <button className="add6">Add to cart</button>
                         </div>
                         <div className="box12">
                             <img src={PaulaChoice} alt="Face Wash" className="faceWash" />
