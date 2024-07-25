@@ -218,6 +218,24 @@ h6 {
     cursor: pointer;
 }
 
+.add6 {
+    justify-content: center;
+    width: 50%;
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    background-color:#5477d2;
+    color: white;
+    bottom: 105px;
+    position: relative;
+    font-size: 17px;
+}
+
+.add6:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
 
 .box2 {
     background-color: white;
@@ -588,7 +606,7 @@ h6 {
 
 .ratings {
         color: #f39c12;
-        font-size: 1.2em;
+        font-size: 20em;
         top: -60px;
         display: flex;
         position: relative;
@@ -606,8 +624,26 @@ h6 {
 
 .rates {
     color: #f39c12;
-    font-size: 1.2em;
+    font-size: 20em;
     top: -80px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-left: 120px;
+}
+
+.p {
+    position: relative;
+    top: -85px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.r {
+    color: #f39c12;
+    font-size: 20em;
+    top: -55px;
     display: flex;
     position: relative;
     justify-content: center;
@@ -620,6 +656,355 @@ top: -105px;
 margin-left: 10px;
 font-size: 18px;
 font-family: sans-serif;
+}
+
+@media screen and (max-width: 800px){
+    .faceWash {
+        width: 70%;
+    }
+
+    .facewash {
+        width: 70%;
+    }
+
+    .facewash2 {
+        width: 50%;
+    }
+
+    .faceWash3 {
+        width: 59%;
+    }
+
+    h6 {
+        font-size: 55px;
+        left: 30px;
+        position: relative;
+        top: 10px;
+        white-space: nowrap;
+    }
+
+    .skincare-video {
+        width: 315px;
+        height: 315px;
+        position: relative;
+        left: 10px;
+        top: 10px;
+    }
+
+
+    .add6 {
+        top: -172px;
+        font-size: 25px;
+        width: 60%;
+    }
+
+
+    .header_container {
+        width: 90%;
+        margin-left: 35px;
+        font-weight: 300;
+    }
+    
+    .header_container .product-text  {
+        color: black;
+        font-size: 25px;
+        font-weight: 300;
+    }
+
+    .skincarebtn {
+        width: 50%;
+        font-size: 24px;
+    }
+
+    .products {
+        position: relative;
+        left: 85px;
+        font-size: 66px;
+    }
+    
+    .box {
+        flex-direction: column;
+        width: 80%;
+        margin-left: 155px;
+    }
+
+    .box_2 {
+        flex-direction: column;
+        width: 80%;
+        margin-left: 155px;
+    }
+
+    .box1 {
+        margin-left: 50px;
+        height: 579px;
+    }
+
+    .box1-content {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .add4 {
+        top: -140px;
+        font-size: 25px;
+        width: 60%;
+    }
+
+    .ratings {
+        left: 130px;
+    }
+
+    .price {
+        font-size: 25px;
+        position: relative;
+        top: -105px;
+    }
+
+    .r {
+        left: 130px;
+        top: -90px;
+        position: relative;
+        font-size: 20em;
+    }
+
+    .p {
+        font-size: 25px;
+        position: relative;
+        top: -130px;
+    }
+
+    .product-txt {
+        margin-top: 20px;
+        font-size: 25px;
+        left: -210px;
+        position: relative;
+    }
+
+    .product-heading {
+        left: -95px;
+        font-size: 27px;
+    }
+
+    .product-t1 {
+        position: relative;
+        right: 160px;
+        font-size: 22px;
+        font-weight: 300;
+    }
+
+    .box2 {
+        margin-left: 50px;
+        margin-top: 65px;
+        height: 579px;
+    }
+
+    .product-txt1 {
+        margin-top: 20px;
+        font-size: 25px;
+        left: -180px;
+        position: relative;
+    }
+
+    .product-heading1 {
+        left: -115px;
+        font-size: 27px;
+    }
+
+    .product-t {
+        position: relative;
+        right: 125px;
+        font-size: 22px;
+        font-weight: 300;
+    }
+
+    .box3 {
+        margin-left: 50px;
+        margin-top: 69px;
+        height: 520px;
+    }
+
+    .product-txt2 {
+        top: -110px;
+        font-size: 25px;
+        left: -175px;
+        position: relative;
+    }
+
+    .product-heading2 {
+        left: -125px;
+        font-size: 27px;
+        top: -120px;
+    }
+
+    .product-t2 {
+        position: relative;
+        right: 150px;
+        font-size: 22px;
+        font-weight: 300;
+        top: -130px;
+    }
+
+    .rates {
+        left: 130px;
+        top: -145px;
+    }
+
+    .prices {
+        font-size: 25px;
+        position: relative;
+        top: -180px;
+    }
+
+    .add1 {
+        top: -220px;
+        font-size: 25px;
+        width: 60%;
+    }
+
+    .box4 {
+        margin-left: 50px;
+        margin-top: 65px;
+        height: 579px;
+    }
+
+    .product-txt8 {
+        margin-top: 20px;
+        font-size: 25px;
+        left: -210px;
+        position: relative;
+    }
+
+    .product-heading7 {
+        left: -127px;
+        font-size: 27px;
+    }
+
+    .product-t5 {
+        position: relative;
+        right: 155px;
+        font-size: 22px;
+        font-weight: 300;
+    }
+
+    .box10 {
+        margin-left: 50px;
+        margin-top: 25px;
+        height: 579px;
+    }
+
+    .product-t3 {
+        position: relative;
+        right: 148px;
+        font-size: 22px;
+        font-weight: 300;
+        top: -55px;
+    }
+
+    .product-heading9 {
+        left: -103px;
+        font-size: 27px;
+        top: -45px;
+    }
+
+    .box11 {
+        margin-left: 50px;
+        margin-top: 65px;
+        height: 550px;
+    }
+
+    .product-txt11 {
+        font-size: 25px;
+        left: -160px;
+        position: relative;
+        color: grey;
+        top: -60px;
+    }
+
+    .product-heading4 {
+        left: -131px;
+        top: -70px;
+        font-size: 27px;
+    }
+
+    .product-t9 {
+        position: relative;
+        right: 159px;
+        top: -80px;
+        font-size: 22px;
+        font-weight: 300;
+    }
+    
+    .box12 {
+        margin-left: 50px;
+        margin-top: 65px;
+        height: 599px;
+    }
+
+    .product-txt5 {
+        margin-top: 40px;
+        font-size: 25px;
+        left: -170px;
+        position: relative;
+    }
+
+    .product-heading5 {
+        left: -157px;
+        font-size: 27px;
+    }
+
+    .product-txt4 {
+        margin-top: 40px;
+        font-size: 24px;
+        left: -105px;
+        position: relative;
+    }
+
+    .product-t10 {
+        position: relative;
+        right: 180px;
+        font-size: 22px;
+        font-weight: 300;
+    }
+    
+    .box13 {
+        margin-left: 50px;
+        margin-top: 65px;  
+        height: 589px;
+    }
+
+    .product-txt6 {
+        margin-top: 40px;
+        font-size: 25px;
+        left: -90px;
+        position: relative;
+    }
+
+    .product-heading6 {
+        top: -40px;
+        left: -95px;
+        font-size: 27px;
+    }
+
+    .add2 {
+        top: -140px;
+        font-size: 25px;
+        width: 60%;
+    }
+
+    .product-t11 {
+        position: relative;
+        right: 159px;
+        top: -50px;
+        font-size: 22px;
+        font-weight: 300;
+    }
+
+    .product-txt9 { 
+        margin-top: 40px;
+        font-size: 25px;
+        left: -215px;
+        position: relative;
+    }
 }
 
 @media screen and (max-width: 768px){
