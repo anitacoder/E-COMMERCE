@@ -118,6 +118,22 @@ body {
     text-decoration: underline;
 }
 
+@media screen and (max-width: 800px){
+    .link {
+        margin-left: 15px;
+        font-size: 18px;
+    }
+
+    .menu_icon {
+        left: 64px;
+    }
+
+    .localMall_icon {
+        left: 74px;
+        position: relative;
+    }
+}
+
 @media screen and (max-width: 768px){
     .link {
         margin-left: 15px;
