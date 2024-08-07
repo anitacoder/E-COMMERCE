@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/e-commerce/static/css/main.dab0e57e.chunk.css",
-    "main.js": "/e-commerce/static/js/main.ef4bbef6.chunk.js",
-    "main.js.map": "/e-commerce/static/js/main.ef4bbef6.chunk.js.map",
+    "main.css": "/e-commerce/static/css/main.c73340ae.chunk.css",
+    "main.js": "/e-commerce/static/js/main.5280193d.chunk.js",
+    "main.js.map": "/e-commerce/static/js/main.5280193d.chunk.js.map",
     "runtime-main.js": "/e-commerce/static/js/runtime-main.50e3c1f6.js",
     "runtime-main.js.map": "/e-commerce/static/js/runtime-main.50e3c1f6.js.map",
-    "static/js/2.504b0bdc.chunk.js": "/e-commerce/static/js/2.504b0bdc.chunk.js",
-    "static/js/2.504b0bdc.chunk.js.map": "/e-commerce/static/js/2.504b0bdc.chunk.js.map",
+    "static/js/2.f8423217.chunk.js": "/e-commerce/static/js/2.f8423217.chunk.js",
+    "static/js/2.f8423217.chunk.js.map": "/e-commerce/static/js/2.f8423217.chunk.js.map",
     "index.html": "/e-commerce/index.html",
-    "precache-manifest.b0c826447db267698ea351508fec4fe0.js": "/e-commerce/precache-manifest.b0c826447db267698ea351508fec4fe0.js",
+    "precache-manifest.ba5438f378eeb2647561976b7f0569bb.js": "/e-commerce/precache-manifest.ba5438f378eeb2647561976b7f0569bb.js",
     "service-worker.js": "/e-commerce/service-worker.js",
-    "static/css/main.dab0e57e.chunk.css.map": "/e-commerce/static/css/main.dab0e57e.chunk.css.map",
-    "static/js/2.504b0bdc.chunk.js.LICENSE.txt": "/e-commerce/static/js/2.504b0bdc.chunk.js.LICENSE.txt",
+    "static/css/main.c73340ae.chunk.css.map": "/e-commerce/static/css/main.c73340ae.chunk.css.map",
+    "static/js/2.f8423217.chunk.js.LICENSE.txt": "/e-commerce/static/js/2.f8423217.chunk.js.LICENSE.txt",
     "static/media/TheOrdinarySerum.png": "/e-commerce/static/media/TheOrdinarySerum.c79ffd2f.png",
     "static/media/ceraVe.jpeg": "/e-commerce/static/media/ceraVe.3a405e44.jpeg",
     "static/media/glycolic_acid.png": "/e-commerce/static/media/glycolic_acid.a02e7e81.png",
@@ -26,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.50e3c1f6.js",
-    "static/js/2.504b0bdc.chunk.js",
-    "static/css/main.dab0e57e.chunk.css",
-    "static/js/main.ef4bbef6.chunk.js"
+    "static/js/2.f8423217.chunk.js",
+    "static/css/main.c73340ae.chunk.css",
+    "static/js/main.5280193d.chunk.js"
   ]
 }
