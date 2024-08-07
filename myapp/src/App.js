@@ -6,7 +6,7 @@ import LoginForm from "./Components/loginForm";
 import Privacy from "./Components/privacy";
 import SignUp from "./Components/signUp";
 import Navbar from "./Components/Navbar";
-import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
+import {HashRouter as Router,Routes,Route} from "react-router-dom";
 const App = () =>  {
   return <div>
     <Router>
