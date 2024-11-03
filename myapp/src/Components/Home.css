@@ -653,10 +653,6 @@ font-family: sans-serif;
 }
 
 @media screen and (max-width: 800px){
-    html {
-        font-size: .75rem;
-    }
-
     .home-content h6 {
         font-size: 3.9rem;
         margin-top: 180px; 
@@ -1132,7 +1128,7 @@ font-family: sans-serif;
 }
 }
 
-@media screen and (max-width: 1025px) {
+/* @media screen and (max-width: 1025px) {
     html {
         font-size: .75rem;
     }
@@ -1351,4 +1347,4 @@ font-family: sans-serif;
     body {
         background-color: blue;
     }
-}
+} */
