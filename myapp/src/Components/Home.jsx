@@ -38,7 +38,6 @@ const Home = () => {
             <div className="home_header">
                 <div className="data">
                     <div className="header_container">
-                        <h1 className="skin_text">Skincare</h1>
                         <p className="product-text">Discover our range of skincare products designed to keep your skin healthy and radiant. From cleansers to moisturizers, we have everything you need for a perfect skincare routine.</p>
                         <button className="skincarebtn" onClick={handleShopSkincareClick}>Shop Skincare</button>
                     </div>

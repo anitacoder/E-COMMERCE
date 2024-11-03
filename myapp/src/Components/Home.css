@@ -23,7 +23,7 @@ body {
 }
 
 h6 {
-    font-size: 84px;
+    font-size: 5rem;
     margin-left: 30px;
     font-family: sans-serif;
     font-weight: 300;
@@ -67,7 +67,7 @@ h6 {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: transform .2s ease-out, box-shadow .2s ease;
-    margin-top: 30px;
+    margin-top: 90px;
 }
 
 .header_container:hover {
@@ -76,15 +76,9 @@ h6 {
 }
 
 
-.header_container h1 {
-    font-family: sans-serif;
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
 .header_container p {
     font-family: 'Arial', sans-serif;
-    font-size: 18px;
+    font-size: 1.3rem;
     margin-bottom: 30px;
 }
 
@@ -95,7 +89,7 @@ h6 {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1.2rem;
     transition: background-color 0.3s ease;
 }
 
@@ -105,7 +99,7 @@ h6 {
 
 .products {
     margin-top: 150px;
-    font-size: 49px;
+    font-size: 3rem;
     font-family: sans-serif;
 }
 
@@ -147,11 +141,11 @@ h6 {
     padding: 12px;
     border-radius: 12px;
     border: none;
-    background-color:#5477d2;
+    background-color: blue;
     color: white;
     bottom: 50px;
     position: relative;
-    font-size: 17px;
+    font-size: 9rem;
 }
 
 .add:hover {
@@ -170,7 +164,7 @@ h6 {
     color: white;
     bottom: 125px;
     position: relative;
-    font-size: 17px;
+    font-size: 1.2rem;
 }
 
 
@@ -189,7 +183,7 @@ h6 {
     color: white;
     bottom: 90px;
     position: relative;
-    font-size: 17px;
+    font-size: 1.2rem;
 }
 
 
@@ -208,7 +202,7 @@ h6 {
     color: white;
     bottom: 105px;
     position: relative;
-    font-size: 17px;
+    font-size: 1.2rem;
 }
 
 
@@ -228,7 +222,7 @@ h6 {
     color: white;
     bottom: 105px;
     position: relative;
-    font-size: 17px;
+    font-size: 1.2rem;
 }
 
 .add6:hover {
@@ -435,7 +429,7 @@ h6 {
 .product-txt9 {
     color: grey;
     font-family: sans-serif;
-    right: 129px;
+    right: 130px;
     top: -24px;
     position: relative;
 }
@@ -450,71 +444,71 @@ h6 {
 
 
 .product-heading {
-    font-size: 19px;
+    font-size: 1.1rem;
     top: -40px;
-    right: 50px;
+    right: 55px;
     color: black;
 }
 
 .product-heading1 {
-    font-size: 19px;
+    font-size: 1.1rem;
     top: -40px;
-    right: 59px;
+    right: 69px;
     color: black;
 }
 
 .product-heading2 {
-    font-size: 19px;
+    font-size: 1.1rem;
     top: -58px;
-    right: 69px;
+    right: 75px;
     color: black;
 }
 
 .product-heading4 {
-    font-size: 19px;
+    font-size: 1.1rem;
     top: -45px;
-    right: 69px;
+    right: 78px;
     color: black;
 }
 
 .product-heading5 {
-    font-size: 19px;
+    font-size: 1.1rem;
     top: -40px;
-    right: 91px;
+    right: 95px;
     color: black;
 }
 
 .product-heading6 {
-    font-size: 19px;
+    font-size: 1.1rem;
     top: -35px;
-    right: 45px;
+    right: 54px;
     color: black;
 }
 
 .product-heading7 {
-    font-size: 19px;
+    font-size: 1.1rem;
     top: -35px;
-    right: 68px;
+    right: 75px;
     color: black;
 }
 
 .product-heading9 {
-    font-size: 19px;
+    font-size: 1.1rem;
     top: -39px;
-    right: 52px;
+    right: 58px;
     color: black;
 }
 
 .product-heading10 {
-    font-size: 19px;
+    font-size: 1.1rem;
     top: -35px;
-    right: 68px;
+    right: 79px;
     color: black;
 }
 
 
 .product-text {
-    bottom: 50px;
+    bottom: 10px;
     right: 0px;
     position: relative;
     color: black;
@@ -532,7 +526,7 @@ h6 {
 
 .product-t1 {
     bottom: 50px;
-    right: 93px;
+    right: 91px;
     position: relative;
     color: black;
     font-family: sans-serif;
@@ -550,7 +544,7 @@ h6 {
 
 .product-t3 {
     bottom: 49px;
-    right: 81px;
+    right: 79px;
     position: relative;
     color: black;
     font-family: sans-serif;
@@ -582,7 +576,7 @@ h6 {
 
 .product-t9 {
     bottom: 55px;
-    right: 89px;
+    right: 92px;
     position: relative;
     color: black;
     font-family: sans-serif;
@@ -618,7 +612,7 @@ h6 {
     position: relative;
     top: -85px;
     margin-left: 10px;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-family: sans-serif;
 }
 
@@ -635,8 +629,8 @@ h6 {
 .p {
     position: relative;
     top: -85px;
-    margin-left: 10px;
-    font-size: 18px;
+    margin-left: 15px;
+    font-size: 1.1rem;
     font-family: sans-serif;
 }
 
@@ -654,7 +648,7 @@ h6 {
 position: relative;
 top: -105px;
 margin-left: 10px;
-font-size: 18px;
+font-size: 1.1rem;
 font-family: sans-serif;
 }
 
@@ -1136,4 +1130,225 @@ font-family: sans-serif;
     margin-left: 180px;
     width: 70%;
 }
+}
+
+@media screen and (max-width: 1025px) {
+    html {
+        font-size: .75rem;
+    }
+
+    .home-content h6 {
+        display: none;
+    }
+
+    .skincare-video {
+        list-style-image: none;
+        width: 400px;
+        height: 400px; 
+        object-fit: cover; 
+        border-radius: 50%; 
+        overflow: hidden; 
+       margin-left: 190px;
+    }
+
+    .home_header .data {
+        padding: 0 10px;
+    }
+
+    .skin_text {
+        font-size: 2rem;
+    }
+
+    .product-text {
+        font-size: 0.875rem;
+    }
+
+    .skincarebtn {
+        font-size: 1.5rem; 
+        padding: 12px 24px; 
+        margin-top: -490px; 
+    }
+
+    .products {
+        font-size: 3rem; 
+        margin-top: 90px; 
+    }
+
+    .box, .box_2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box1, .box2, .box3, .box4,.box10,.box11, .box12, .box13 {
+        width: 100%;
+        max-width: 300px;
+        margin: 40px 0;
+    }
+
+
+    .product-txt8 {
+        font-size: 1.5rem;
+        margin-top: 40px;
+        left: -110px;
+    }
+
+    .product-txt {
+        font-size: 1.5rem;
+        margin-top: 40px;
+        left: -115px;
+    }
+
+    .product-txt1 {
+        font-size: 1.5rem;
+        margin-top: 40px;
+        left: -90px;
+    }
+
+    .product-txt2 {
+        font-size: 1.5rem;
+        margin-top: 40px;
+        left: -90px;
+    }
+
+    .product-txt11 {
+        font-size: 1.5rem;
+        margin-top: 40px;
+        left: -80px;
+    }
+
+    .product-txt5 {
+        font-size: 1.5rem;
+        margin-top: 40px;
+        left: -90px;
+    }
+
+    .product-txt9 {
+        font-size: 1.5rem;
+        margin-top: 40px;
+        left: -120px;
+    }
+
+    .product-heading {
+        font-size: 1.25rem;
+        left: -60px;
+    }
+
+    .product-heading2 {
+        font-size: 1.25rem;
+        left: -75px;
+    }
+
+    .product-heading4 {
+        font-size: 1.25rem;
+        left: -80px;
+    }
+
+    .product-heading5 {
+        font-size: 1.25rem;
+        left: -95px;
+    }
+
+    .product-heading6 {
+        font-size: 1.25rem;
+        left: -60px;
+    }
+
+    .product-heading7 {
+        font-size: 1.25rem;
+        left: -75px;
+    }
+
+    .product-heading9 {
+        font-size: 1.25rem;
+        left: -60px; 
+    }
+
+    .product-heading1 {
+        font-size: 1.25rem;
+        left: -65px;
+    }
+
+    .product-t1 {
+        font-size: 1.25rem; 
+        margin-top: 20px; 
+        margin-left: 15px;
+    }
+
+    .product-t2 {
+        font-size: 1.25rem; 
+        margin-top: 20px; 
+        margin-left: 14px;
+    }
+
+    .product-t3 {
+        font-size: 1.25rem; 
+        margin-top: 20px; 
+        margin-left: 18px;
+    }
+
+    .product-t5 {
+        font-size: 1.25rem; 
+        margin-top: 20px; 
+        margin-left: 14px;
+    }
+
+    .product-t9 {
+        font-size: 1.25rem; 
+        margin-top: 20px; 
+        margin-left: 4px;
+    }
+
+    .product-t10 {
+        font-size: 1.25rem; 
+        margin-top: 20px; 
+        margin-left: 14px;
+    }
+
+    .product-t11 {
+        font-size: 1.25rem; 
+        margin-top: 20px; 
+        margin-left: 15px;
+    }
+
+    .product-t {
+        font-size: 1.25rem; 
+        margin-top: 20px; 
+        margin-left: 15px;
+    }
+
+    .price {
+        font-size: 1.4rem;
+        margin-top: 20px;
+    }
+
+    .prices {
+        font-size: 1.4rem;
+        margin-top: 20px;
+    }
+
+    .p {
+        font-size: 1.4rem;
+        margin-top: 20px;
+    }
+
+    .add4, .add1,.add6 {
+        font-size: 1.2rem;
+        padding: 6px 12px;
+        margin-top: 5px;
+    }
+
+    .add2 {
+        font-size: 1.2rem;
+        padding: 6px 12px;
+        margin-top: 1px;
+    }
+
+    .box1-content {
+        margin-top: 30px;
+        margin-left: 10px;
+    }   
+
+    body {
+        background-color: blue;
+    }
 }
