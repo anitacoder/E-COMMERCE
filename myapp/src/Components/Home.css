@@ -653,6 +653,10 @@ font-family: sans-serif;
 }
 
 @media screen and (max-width: 800px){
+    html {
+        font-size: .75rem;
+    }
+
     .home-content h6 {
         font-size: 3.9rem;
         margin-top: 180px; 
